@@ -1,7 +1,5 @@
 # Make sure the plot folders and input table are ready.
-for (dd in c("output/plots", "output/plots_PDF")) {
-  dir.create(dd, showWarnings = FALSE, recursive = TRUE)
-}
+dir.create("output/plots_PDF", showWarnings = FALSE, recursive = TRUE)
 if (!exists("performance_data_clean")) stop("performance_data_clean not found.")
 if (!exists("PTERODACT")) {
   PTERODACT <- c("Azhdarchoidea", "Ctenochasmatoidea", "Dsungaripteroidea",

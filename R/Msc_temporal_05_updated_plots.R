@@ -84,8 +84,6 @@ make_time_panel <- function(vars, title, subtitle, ncol = 3) {
 save_fig <- function(p, name, n_panels, ncol = 3) {
   if (is.null(p)) return(invisible(NULL))
   h <- FIG_H_ROW * ceiling(n_panels / ncol)
-  ggsave(sprintf("output/plots/%s.png", name), p,
-         width = FIG_W, height = h, dpi = FIG_DPI)
   ggsave(sprintf("output/plots_PDF/%s.pdf", name), p,
          width = FIG_W, height = h)
   cat(sprintf("Written: %s (%.0f x %.1f in, %d panels)\n", name, FIG_W, h, n_panels))

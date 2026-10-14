@@ -57,7 +57,6 @@ make_bar <- function(tab, palette, fill_name, title, thr) ggplot(tab, aes(Period
 p_depo <- make_bar(tab_depo, depo_colors, "Depositional setting", "Depositional setting by period", 0.06)
 p_env  <- make_bar(tab_env,  env_colors,  "Habitat", "Habitat (macroenvironment) by period", 0.07)
 (p_depo | p_env) + plot_annotation(title="Summary of pterosaur environments through time")
-ggsave("output/plots/Taphono_plot.png", p_depo + p_env, width=14, height=8, dpi=300)
 ggsave("output/plots_PDF/Taphono_plot.pdf", p_depo + p_env, width=14, height=8)
 
 # ------ 5. Check whether habitat and depositional setting overlap -------------
@@ -116,5 +115,4 @@ p_trend <- ggplot(trend_long, aes(Midpoint, value)) +
   scale_x_reverse() + facet_wrap(~metric, scales="free_y") +
   labs(x="Age (Ma)", y="Metric value", title="Biomechanical performance through time by habitat") +
   theme_minimal(base_size=12)
-ggsave("output/plots/Biomech_env_time.png", p_trend, width=12, height=8, dpi=300)
 ggsave("output/plots_PDF/Biomech_env_time.pdf", p_trend, width=12, height=8)

@@ -3,8 +3,7 @@
 res_dir  <- "output/results/Supplemental_EFA"
 stat_dir <- res_dir                       # save_csv() writes here
 plot_dir <- "output/plots_PDF"
-png_dir  <- "output/plots"
-for (dd in c(res_dir, plot_dir, png_dir)) dir.create(dd, showWarnings=FALSE, recursive=TRUE)
+for (dd in c(res_dir, plot_dir)) dir.create(dd, showWarnings=FALSE, recursive=TRUE)
 cat("Output directories ready\n")
 
 # ── 9B. DATA PREPARATION ──────────────────────────────────────────────────────

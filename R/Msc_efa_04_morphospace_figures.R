@@ -11,17 +11,14 @@ metrics <- list(
        clade_col=TRUE,  transp=TRUE,  dark_bg=TRUE))
 
 # ── 7. PRODUCE FIGURES — one plot per data type, pipeline naming ──────────────
-# Save each finished figure in both PDF and PNG form.
+# Save each finished figure as PDF.
 dir.create("output/plots_PDF", showWarnings=FALSE, recursive=TRUE)
-dir.create("output/plots",     showWarnings=FALSE, recursive=TRUE)
 
-# Helper: save both PDF and PNG
+# Helper: save PDF
 save_plot <- function(p, name, w=11, h=8.5) {
   base <- file.path("output/plots_PDF", name)
   ggsave(paste0(base,".pdf"), p, width=w, height=h, dpi=300)
-  ggsave(file.path("output/plots", paste0(name,".png")),
-         p, width=w, height=h, dpi=150)
-  cat(sprintf("✓ Plot saved: %s (PNG + PDF)\n", name))
+  cat(sprintf("✓ Plot saved: %s (PDF)\n", name))
 }
 
 # ── 7A. METRIC MORPHOSPACE PLOTS — 1A / 1B / 1C  ─────────────────────────────

@@ -137,7 +137,6 @@ if (length(missing_time) > 0) {
   n_rows_efa <- ceiling(n_bins_efa / 3)
   fig_h_efa  <- max(8, n_rows_efa * 5.2)
 
-  dir.create("output/plots",     showWarnings=FALSE, recursive=TRUE)
   dir.create("output/plots_PDF", showWarnings=FALSE, recursive=TRUE)
 
   ggsave("output/plots_PDF/CLADE_EFA_morphospace_time.pdf",

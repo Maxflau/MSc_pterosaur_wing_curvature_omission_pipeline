@@ -2,9 +2,7 @@
 if (!exists("write_supp")) stop("Source Msc_stats_00_setup.R first.")
 if (!exists("outlines_list")) stop("outlines_list not found.")
 
-for (d in c("output/plots", "output/plots_PDF")) {
-  dir.create(d, showWarnings = FALSE, recursive = TRUE)
-}
+dir.create("output/plots_PDF", showWarnings = FALSE, recursive = TRUE)
 
 #####################################################################################
 # 1. Summarise the measured curvature values
@@ -96,7 +94,6 @@ p1 <- ggplot(d, aes(x = trailing_edge)) +
                           nrow(d), median(d$trailing_edge)),
        x = "Trailing edge (camber ratio)", y = "Specimens") + theme_bw(base_size = 12) + theme(panel.border = element_rect(colour = "grey30", fill = NA, linewidth = 0.5))
 
-ggsave("output/plots/CURVATURE_01_distribution.png", p1, width = 8, height = 5, dpi = 300)
 ggsave("output/plots_PDF/CURVATURE_01_distribution.pdf", p1,
        width = 8, height = 5)
 
@@ -113,6 +110,5 @@ if ("clade" %in% colnames(d)) {
     theme_bw(base_size = 12) +
     theme(panel.border = element_rect(colour = "grey30", fill = NA, linewidth = 0.5))
 
-  ggsave("output/plots/CURVATURE_02_free_vs_measured.png", p2, width = 9, height = 6, dpi = 300)
   ggsave("output/plots_PDF/CURVATURE_02_free_vs_measured.pdf", p2,width = 9, height = 6)
 }

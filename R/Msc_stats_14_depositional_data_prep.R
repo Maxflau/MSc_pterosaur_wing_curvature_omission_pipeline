@@ -2,9 +2,7 @@ cat("\n--- ENVIRONMENT AND TAPHONOMY FIGURES ---\n\n")
 
 # Prepare the data used to compare depositional settings.
 library(ggplot2)
-for (dd in c("output/plots", "output/plots_PDF")) {
-  dir.create(dd, showWarnings = FALSE, recursive = TRUE)
-}
+dir.create("output/plots_PDF", showWarnings = FALSE, recursive = TRUE)
 if (!exists("METRICS")) stop("Source Msc_stats_00_setup.R first.")
 
 LABELS <- c(aspect_ratio = "Aspect ratio", r2_hat = "Second moment of area",
@@ -62,8 +60,6 @@ p_env <- ggplot(long, aes(x = setting, y = value, fill = setting)) +
         plot.title = element_text(face = "bold", size = 13))
 
 h <- 3.3 * ceiling(length(PLOT_METRICS) / 2)
-ggsave("output/plots/ENV_01_metrics_by_setting.png", p_env,
-       width = 11, height = h, dpi = 300, limitsize = FALSE)
 ggsave("output/plots_PDF/ENV_01_metrics_by_setting.pdf", p_env,
        width = 11, height = h, limitsize = FALSE)
 cat("Written: ENV_01_metrics_by_setting\n")
@@ -97,8 +93,6 @@ if (all(c("PC1", "PC2") %in% colnames(d))) {
     theme(panel.border = element_rect(colour = "grey30", fill = NA, linewidth = 0.5),
           plot.title = element_text(face = "bold", size = 13))
 
-  ggsave("output/plots/ENV_02_morphospace_by_setting.png", p_ms,
-         width = 10, height = 7, dpi = 300)
   ggsave("output/plots_PDF/ENV_02_morphospace_by_setting.pdf", p_ms,
          width = 10, height = 7)
   cat("Written: ENV_02_morphospace_by_setting\n")

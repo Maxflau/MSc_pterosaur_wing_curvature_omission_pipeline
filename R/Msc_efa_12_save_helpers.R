@@ -7,10 +7,8 @@ save_csv  <- function(df, name) {
 }
 save_plot <- function(p, name, w=10, h=7) {
   pdf_path <- file.path(plot_dir, paste0(name, ".pdf"))
-  png_path <- file.path(plot_dir, paste0(name, ".png"))
   ggsave(pdf_path, p, width=w, height=h, dpi=300)
-  ggsave(png_path, p, width=w, height=h, dpi=150)
-  cat(sprintf("  ✓ %s (PDF + PNG)\n", name))
+  cat(sprintf("  ✓ %s (PDF)\n", name))
 }
 
 # EFA axis labels

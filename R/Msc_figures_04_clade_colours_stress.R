@@ -24,10 +24,7 @@ match_clade_colour <- function(clade_names) {
 }
 
 # Make sure the figure folders exist before saving plots.
-for (d in c("output/plots/biomechanic_plot",
-            "output/plots_PDF/biomechanic_plot")) {
-  dir.create(d, showWarnings = FALSE, recursive = TRUE)
-}
+dir.create("output/plots_PDF/biomechanic_plot", showWarnings = FALSE, recursive = TRUE)
 
 if (!exists("stress_grid")) stop("stress_grid not found - source Msc_plot_layer_v3.R first.")
 if (!exists("wing_bg"))     stop("wing_bg not found - source Msc_wing_overlay_v1.R first.")

@@ -110,8 +110,6 @@ p_disp <- ggplot(disp_long, aes(x = Time_Bin, y = mean, group = 1)) +
         strip.text = element_text(face = "bold", size = 9),
         panel.grid.minor = element_blank())
 
-ggsave("output/plots/TEMPORAL_03_disparity_optimality.png",
-       p_disp, width = 11, height = 4, dpi = 300)
 ggsave("output/plots_PDF/TEMPORAL_03_disparity_optimality.pdf",
        p_disp, width = 11, height = 4)
 cat("Written: TEMPORAL_03_disparity_optimality\n\n")

@@ -1,8 +1,6 @@
 # Test which categorical factors tend to occur together.
 if (!exists("write_supp")) stop("Source Msc_stats_00_setup.R first.")
-for (dd in c("output/plots", "output/plots_PDF")) {
-  dir.create(dd, showWarnings = FALSE, recursive = TRUE)
-}
+dir.create("output/plots_PDF", showWarnings = FALSE, recursive = TRUE)
 
 # Start from the cleaned performance table.
 d <- performance_data_clean
@@ -97,7 +95,6 @@ for (pr in PAIRS) {
 
   w <- max(7, min(16, 3 + ncol(tb) * 0.9))
   h <- max(5, min(14, 3 + nrow(tb) * 0.45))
-  ggsave(sprintf("output/plots/HEATMAP_%s.png", pair_name), p,width = w, height = h, dpi = 300, limitsize = FALSE)
   ggsave(sprintf("output/plots_PDF/HEATMAP_%s.pdf", pair_name), p, width = w, height = h, limitsize = FALSE)
 }
 

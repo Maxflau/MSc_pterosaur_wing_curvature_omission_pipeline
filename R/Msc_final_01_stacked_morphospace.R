@@ -1,7 +1,5 @@
-# Make sure the plot folders exist and the time data are ready.
-for (dd in c("output/plots", "output/plots_PDF")) {
-  dir.create(dd, showWarnings = FALSE, recursive = TRUE)
-}
+# Make sure the plot folder exists and the time data are ready.
+dir.create("output/plots_PDF", showWarnings = FALSE, recursive = TRUE)
 if (!exists("temporal_data")) stop("temporal_data not found - source Msc_temp_3_1.R.")
 if (!"Midpoint" %in% names(temporal_data)) {
   stop("Midpoint absent")
@@ -115,20 +113,16 @@ border = "grey25", lwd = 1.1,col = adjustcolor("grey97", alpha.f = 0.85))
   invisible(TRUE)
 }
 
-# Save the same stacked figure in both PNG and PDF formats.
+# Save the stacked figure as PDF.
 save_stack <- function(expr, name, w = 9, h = 11.5) {
-  for (fmt in c("png", "pdf")) {
-    path <- sprintf("output/plots%s/%s.%s",
-   if (fmt == "pdf") "_PDF" else "", name, fmt)
-    if (fmt == "png") png(path, width = w, height = h, units = "in", res = 300)
-    else pdf(path, width = w, height = h)
-    layout(matrix(1:2, ncol = 1), heights = c(5.2, 1))
-    par(mar = c(1.5, 3.5, 2.5, 1), xpd = TRUE); eval(expr)
-    par(mar = c(0, 1, 0, 1)); plot.new()
-    legend("center", legend = names(PAL), pt.bg = PAL, pch = 21, col = "grey15",
-           ncol = 3, bty = "o", cex = 0.82, pt.cex = 1.3, title = "Clade")
-    dev.off()
-  }
+  path <- sprintf("output/plots_PDF/%s.pdf", name)
+  pdf(path, width = w, height = h)
+  layout(matrix(1:2, ncol = 1), heights = c(5.2, 1))
+  par(mar = c(1.5, 3.5, 2.5, 1), xpd = TRUE); eval(expr)
+  par(mar = c(0, 1, 0, 1)); plot.new()
+  legend("center", legend = names(PAL), pt.bg = PAL, pch = 21, col = "grey15",
+         ncol = 3, bty = "o", cex = 0.82, pt.cex = 1.3, title = "Clade")
+  dev.off()
   cat("  Written:", name, "\n")
 }
 

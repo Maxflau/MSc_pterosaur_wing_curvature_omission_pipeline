@@ -3,14 +3,11 @@
 n_rows_efa <- ceiling(n_bins_efa / 3)
 fig_h_efa  <- max(8, n_rows_efa * 5.2)
 
-dir.create("output/plots",     showWarnings=FALSE, recursive=TRUE)
 dir.create("output/plots_PDF", showWarnings=FALSE, recursive=TRUE)
 
 ggsave("output/plots_PDF/CLADE_EFA_morphospace_time.pdf",
        efa_time_plot, width=18, height=fig_h_efa, dpi=300)
-ggsave("output/plots/CLADE_EFA_morphospace_time.png",
-       efa_time_plot, width=18, height=fig_h_efa, dpi=150)
-cat("  ✓ EFA morphospace through time (PNG + PDF)\n")
+cat("  ✓ EFA morphospace through time (PDF)\n")
 
 cat("\n=== Section 11: EFA grid biomechanical table ===\n")
 

@@ -4,10 +4,8 @@ cat("===========================================================================
 
 library(ggplot2)
 
-# Make sure the plot folders exist before saving figures.
-for (dd in c("output/plots", "output/plots_PDF")) {
-  dir.create(dd, showWarnings = FALSE, recursive = TRUE)
-}
+# Make sure the plot folder exists before saving figures.
+dir.create("output/plots_PDF", showWarnings = FALSE, recursive = TRUE)
 if (!exists("phy_pruned") || !exists("phylo_data")) {
   stop("phy_pruned / phylo_data not found - source Msc_phylo_prep_v3.R first.")
 }
