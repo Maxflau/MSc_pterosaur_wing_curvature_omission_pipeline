@@ -1,0 +1,87 @@
+# Finish the larger temporal figure set with size and disparity panels.
+###################################################################################
+# 2. Plot the body size variables with the shared large layout
+###################################################################################
+# Size as its own subject rather than an unacknowledged driver of the shape
+# metrics. If size rises across the Cretaceous while shape traits stay flat,
+# that separation is itself the result.
+size_vars <- intersect(c("Wingspan_cm", "Mass_kg", "Wing_area_cm2"), present)
+
+p_size <- make_time_panel(size_vars, "Body size through the Mesozoic",
+                          paste("Log10 scale.", CAPTION))
+save_fig(p_size, "TEMPORAL_02_body_size", length(size_vars))
+
+###################################################################################
+# 3. Plot disparity and Pareto rank ratio with the shared large layout
+###################################################################################
+disp_long <- rbind(
+  data.frame(Time_Bin = disparity_metrics$Time_Bin, n = disparity_metrics$n,
+             variable = "sov", label = "Shape disparity (sum of variance)",
+             mean = disparity_metrics$sov,
+             lo = disparity_metrics$sov_lo, hi = disparity_metrics$sov_hi),
+  data.frame(Time_Bin = disparity_metrics$Time_Bin, n = disparity_metrics$n,
+             variable = "mpd", label = "Morphospace expansion (mean pairwise distance)",
+             mean = disparity_metrics$mpd,
+             lo = disparity_metrics$mpd_lo, hi = disparity_metrics$mpd_hi))
+
+if ("pareto_rank_ratio" %in% present) {
+  prr <- temporal_metrics[temporal_metrics$variable == "pareto_rank_ratio", ]
+  disp_long <- rbind(disp_long,
+                     data.frame(Time_Bin = prr$Time_Bin, n = prr$n,
+                                variable = "prr", label = "Pareto rank ratio",
+                                mean = prr$mean, lo = prr$lo, hi = prr$hi))
+}
+
+# Add the EFA shape-disparity panel, when available (needs Msc_temp_3.1.5.R
+# to have produced disparity_metrics_efa first).
+if (exists("disparity_metrics_efa") && !is.null(disparity_metrics_efa)) {
+  disp_long <- rbind(disp_long,
+                     data.frame(Time_Bin = disparity_metrics_efa$Time_Bin,
+                                n = disparity_metrics_efa$n,
+                                variable = "sov_efa",
+                                label = "EFA shape disparity (sum of variance)",
+                                mean = disparity_metrics_efa$sov,
+                                lo = disparity_metrics_efa$sov_lo,
+                                hi = disparity_metrics_efa$sov_hi))
+  cat("EFA panel added - sov range:",
+      paste(round(range(disparity_metrics_efa$sov), 5), collapse = " to "), "\n")
+} else {
+  cat("EFA panel SKIPPED - disparity_metrics_efa not found or NULL.\n")
+  cat("  Source Msc_temp_3.1.5.R (with shape_scores available) before this script.\n")
+}
+
+DISP_COLS <- c("Shape disparity (sum of variance)" = "#1F6FB4",
+               "Morphospace expansion (mean pairwise distance)" = "#B5651D",
+               "Pareto rank ratio" = "#1b7837",
+               "EFA shape disparity (sum of variance)" = "#8E3B8E")
+disp_long$label <- factor(disp_long$label, levels = intersect(names(DISP_COLS), unique(disp_long$label)))
+
+p_disp <- ggplot(disp_long, aes(x = Time_Bin, y = mean, group = 1)) +
+  geom_ribbon(aes(ymin = lo, ymax = hi, fill = label), alpha = 0.18, colour = NA) +
+  geom_errorbar(aes(ymin = lo, ymax = hi, colour = label),
+                width = 0.16, linewidth = 0.55) +
+  geom_line(aes(colour = label), linewidth = 0.85) +
+  geom_point(aes(colour = label), size = 2.7) +
+  geom_text(aes(label = paste0("n=", n)), y = -Inf, vjust = -0.7,
+            size = 2.5, colour = "grey35") +
+  scale_colour_manual(values = DISP_COLS, guide = "none") +
+  scale_fill_manual(values = DISP_COLS, guide = "none") +
+  facet_wrap(~ label, scales = "free_y", ncol = 2) +
+  labs(title = "Disparity and optimality through the Mesozoic",
+       subtitle = paste("Pareto rank ratio replaces the former averaged score.",
+                        "EFA panel uses shapePC1-shapePC2 (unstandardised),",
+                        "hence its much smaller axis values.", CAPTION), x = NULL, y = NULL) +
+  theme_bw(base_size = 11) +
+  theme(axis.text.x = element_text(angle = 35, hjust = 1, size = 8),
+        strip.text = element_text(face = "bold", size = 9),
+        strip.background = element_rect(fill = "grey95", colour = "grey40"),
+        panel.border = element_rect(colour = "grey30", fill = NA,
+                                    linewidth = PANEL_BORDER),
+        panel.grid.minor = element_blank(),
+        panel.grid.major.x = element_blank(),
+        plot.title = element_text(face = "bold", size = 13),
+        plot.subtitle = element_text(size = 8.5, colour = "grey35"))
+
+save_fig(p_disp, "TEMPORAL_03_disparity_optimality", nlevels(disp_long$label), ncol = 2)
+
+cat("\nBefore interpreting any trend, check the PGLS in Msc_PGLS_2.R:\n")
