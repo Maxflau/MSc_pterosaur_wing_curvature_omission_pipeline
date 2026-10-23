@@ -1,4 +1,4 @@
-#Be Curveful: Omission of Wing Curvature in Pterosaur Flight Apparatus
+## Be Curveful: Omission of Wing Curvature in Pterosaur Flight Apparatus
 
 This repository contains the full pipeline, metadata (both pterosaur wing outline and palaeoecological information) needed to run the analysis and reproduce the supplementary material.
 
