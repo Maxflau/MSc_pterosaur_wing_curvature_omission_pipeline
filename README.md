@@ -1,9 +1,8 @@
-# BeCurveful: Omission of Wing Curvature in Pterosaur Flight Apparatus
+#Be Curveful: Omission of Wing Curvature in Pterosaur Flight Apparatus
 
 This repository contains the full pipeline, metadata (both pterosaur wing outline and palaeoecological information) needed to run the analysis and reproduce the supplementary material.
 
 ## Structure
-
 - `Msc_main_driver_v3.R` —  this script conducts the main analyses by sourcing the R codes composing the pipeline.
 - `R/` — folder containing the codes covering wing outline extraction/loading, data handling, theoretical morphospaces, phylogenetics, and statistical analyses (PERMANOVA, allometry, disparity, EFA, PGLS, etc.).
 - `data/` — the only raw inputs required to run the pipeline:
