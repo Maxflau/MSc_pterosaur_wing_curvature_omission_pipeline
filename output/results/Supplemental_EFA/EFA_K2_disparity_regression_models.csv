@@ -1,0 +1,4 @@
+"Model","R²","Adj_R²","F","p_value","sig"
+"disparity ~ mean_opt",0.3819,0.1759,1.854,0.26657,""
+"disparity ~ mean_WAR",0.3518,0.1357,1.628,0.29177,""
+"disparity ~ opt + WAR + SVM",0.8819,0.5274,2.488,0.42886,""
