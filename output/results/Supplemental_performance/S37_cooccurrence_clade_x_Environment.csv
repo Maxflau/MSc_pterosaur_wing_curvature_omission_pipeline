@@ -1,0 +1,89 @@
+"level_1","level_2","n","std_residual","over_represented"
+"Anurognathidae","Archipelago",1,"-0.095",FALSE
+"Azhdarchoidea","Archipelago",3,"-1.992",FALSE
+"Basal pterodactyliform","Archipelago",5,"4.103",TRUE
+"Darwinoptera","Archipelago",2,"0.766",FALSE
+"Dsungaripteroidea","Archipelago",2,"0.451",FALSE
+"Euctenochasmatia","Archipelago",12,"4.528",TRUE
+"Eudimorphodontoidea","Archipelago",0,"-1.477",FALSE
+"Most Basal pterosaur","Archipelago",0,"-1.068",FALSE
+"Ornithocheiromorpha","Archipelago",0,"-3.114",FALSE
+"Pteranodontia","Archipelago",0,"-1.536",FALSE
+"Rhamphorhynchidae","Archipelago",5,"1.825",FALSE
+"Anurognathidae","Coastal environment",0,"-1.420",FALSE
+"Azhdarchoidea","Coastal environment",4,"-2.589",FALSE
+"Basal pterodactyliform","Coastal environment",0,"-1.420",FALSE
+"Darwinoptera","Coastal environment",0,"-1.510",FALSE
+"Dsungaripteroidea","Coastal environment",8,"4.564",TRUE
+"Euctenochasmatia","Coastal environment",1,"-2.410",FALSE
+"Eudimorphodontoidea","Coastal environment",9,"4.657",TRUE
+"Most Basal pterosaur","Coastal environment",3,"1.581",FALSE
+"Ornithocheiromorpha","Coastal environment",10,"0.254",FALSE
+"Pteranodontia","Coastal environment",3,"0.184",FALSE
+"Rhamphorhynchidae","Coastal environment",5,"0.919",FALSE
+"Anurognathidae","Desert",0,"-0.439",FALSE
+"Azhdarchoidea","Desert",3,"1.863",FALSE
+"Basal pterodactyliform","Desert",0,"-0.439",FALSE
+"Darwinoptera","Desert",0,"-0.467",FALSE
+"Dsungaripteroidea","Desert",0,"-0.519",FALSE
+"Euctenochasmatia","Desert",0,"-0.899",FALSE
+"Eudimorphodontoidea","Desert",0,"-0.567",FALSE
+"Most Basal pterosaur","Desert",2,"4.745",TRUE
+"Ornithocheiromorpha","Desert",0,"-1.195",FALSE
+"Pteranodontia","Desert",0,"-0.590",FALSE
+"Rhamphorhynchidae","Desert",0,"-0.675",FALSE
+"Anurognathidae","Floodplain",0,"-1.420",FALSE
+"Azhdarchoidea","Floodplain",23,"4.917",TRUE
+"Basal pterodactyliform","Floodplain",0,"-1.420",FALSE
+"Darwinoptera","Floodplain",0,"-1.510",FALSE
+"Dsungaripteroidea","Floodplain",0,"-1.677",FALSE
+"Euctenochasmatia","Floodplain",2,"-1.914",FALSE
+"Eudimorphodontoidea","Floodplain",0,"-1.832",FALSE
+"Most Basal pterosaur","Floodplain",0,"-1.325",FALSE
+"Ornithocheiromorpha","Floodplain",18,"3.548",TRUE
+"Pteranodontia","Floodplain",0,"-1.906",FALSE
+"Rhamphorhynchidae","Floodplain",0,"-2.182",FALSE
+"Anurognathidae","Fluvial environment",0,"-0.661",FALSE
+"Azhdarchoidea","Fluvial environment",9,"4.528",TRUE
+"Basal pterodactyliform","Fluvial environment",0,"-0.661",FALSE
+"Darwinoptera","Fluvial environment",0,"-0.703",FALSE
+"Dsungaripteroidea","Fluvial environment",0,"-0.781",FALSE
+"Euctenochasmatia","Fluvial environment",0,"-1.352",FALSE
+"Eudimorphodontoidea","Fluvial environment",0,"-0.853",FALSE
+"Most Basal pterosaur","Fluvial environment",0,"-0.617",FALSE
+"Ornithocheiromorpha","Fluvial environment",2,"-0.300",FALSE
+"Pteranodontia","Fluvial environment",0,"-0.887",FALSE
+"Rhamphorhynchidae","Fluvial environment",0,"-1.016",FALSE
+"Anurognathidae","Forested wetland environment",7,"3.571",TRUE
+"Azhdarchoidea","Forested wetland environment",9,"-2.534",FALSE
+"Basal pterodactyliform","Forested wetland environment",3,"0.441",FALSE
+"Darwinoptera","Forested wetland environment",7,"3.150",TRUE
+"Dsungaripteroidea","Forested wetland environment",0,"-2.252",FALSE
+"Euctenochasmatia","Forested wetland environment",14,"2.076",TRUE
+"Eudimorphodontoidea","Forested wetland environment",0,"-2.460",FALSE
+"Most Basal pterosaur","Forested wetland environment",2,"-0.110",FALSE
+"Ornithocheiromorpha","Forested wetland environment",18,"1.200",FALSE
+"Pteranodontia","Forested wetland environment",0,"-2.559",FALSE
+"Rhamphorhynchidae","Forested wetland environment",7,"0.811",FALSE
+"Anurognathidae","Marine environment",0,"-0.661",FALSE
+"Azhdarchoidea","Marine environment",0,"-1.941",FALSE
+"Basal pterodactyliform","Marine environment",0,"-0.661",FALSE
+"Darwinoptera","Marine environment",0,"-0.703",FALSE
+"Dsungaripteroidea","Marine environment",0,"-0.781",FALSE
+"Euctenochasmatia","Marine environment",0,"-1.352",FALSE
+"Eudimorphodontoidea","Marine environment",0,"-0.853",FALSE
+"Most Basal pterosaur","Marine environment",0,"-0.617",FALSE
+"Ornithocheiromorpha","Marine environment",0,"-1.798",FALSE
+"Pteranodontia","Marine environment",11,"13.053",TRUE
+"Rhamphorhynchidae","Marine environment",0,"-1.016",FALSE
+"Anurognathidae","Semi-arid floodplain",0,"-0.629",FALSE
+"Azhdarchoidea","Semi-arid floodplain",3,"0.410",FALSE
+"Basal pterodactyliform","Semi-arid floodplain",0,"-0.629",FALSE
+"Darwinoptera","Semi-arid floodplain",0,"-0.668",FALSE
+"Dsungaripteroidea","Semi-arid floodplain",1,"0.743",FALSE
+"Euctenochasmatia","Semi-arid floodplain",1,"-0.343",FALSE
+"Eudimorphodontoidea","Semi-arid floodplain",4,"4.680",TRUE
+"Most Basal pterosaur","Semi-arid floodplain",0,"-0.587",FALSE
+"Ornithocheiromorpha","Semi-arid floodplain",0,"-1.710",FALSE
+"Pteranodontia","Semi-arid floodplain",0,"-0.844",FALSE
+"Rhamphorhynchidae","Semi-arid floodplain",1,"0.215",FALSE

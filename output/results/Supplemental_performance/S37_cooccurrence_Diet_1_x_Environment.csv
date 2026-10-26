@@ -1,0 +1,57 @@
+"level_1","level_2","n","std_residual","over_represented"
+"Carnivore","Archipelago",9,"0.000",FALSE
+"Durophageous","Archipelago",0,"-0.987",FALSE
+"Filter Feeder","Archipelago",9,"3.609",TRUE
+"Generalist","Archipelago",0,"-1.352",FALSE
+"Herbivore","Archipelago",0,"-1.536",FALSE
+"Insectivore","Archipelago",3,"-0.408",FALSE
+"Piscivore","Archipelago",9,"-0.343",FALSE
+"Carnivore","Coastal environment",9,"-1.447",FALSE
+"Durophageous","Coastal environment",6,"5.039",TRUE
+"Filter Feeder","Coastal environment",1,"-2.013",FALSE
+"Generalist","Coastal environment",1,"-0.897",FALSE
+"Herbivore","Coastal environment",0,"-1.906",FALSE
+"Insectivore","Coastal environment",4,"-0.662",FALSE
+"Piscivore","Coastal environment",22,"2.872",TRUE
+"Carnivore","Desert",2,"0.494",FALSE
+"Durophageous","Desert",0,"-0.379",FALSE
+"Filter Feeder","Desert",0,"-0.792",FALSE
+"Generalist","Desert",1,"1.557",FALSE
+"Herbivore","Desert",2,"3.117",TRUE
+"Insectivore","Desert",0,"-0.846",FALSE
+"Piscivore","Desert",0,"-1.578",FALSE
+"Carnivore","Floodplain",12,"-0.334",FALSE
+"Durophageous","Floodplain",0,"-1.224",FALSE
+"Filter Feeder","Floodplain",2,"-1.468",FALSE
+"Generalist","Floodplain",2,"-0.117",FALSE
+"Herbivore","Floodplain",9,"4.363",TRUE
+"Insectivore","Floodplain",0,"-2.734",FALSE
+"Piscivore","Floodplain",18,"1.423",FALSE
+"Carnivore","Fluvial environment",10,"4.523",TRUE
+"Durophageous","Fluvial environment",0,"-0.570",FALSE
+"Filter Feeder","Fluvial environment",0,"-1.191",FALSE
+"Generalist","Fluvial environment",0,"-0.781",FALSE
+"Herbivore","Fluvial environment",0,"-0.887",FALSE
+"Insectivore","Fluvial environment",0,"-1.273",FALSE
+"Piscivore","Fluvial environment",1,"-1.714",FALSE
+"Carnivore","Forested wetland environment",18,"-0.671",FALSE
+"Durophageous","Forested wetland environment",0,"-1.644",FALSE
+"Filter Feeder","Forested wetland environment",11,"1.734",FALSE
+"Generalist","Forested wetland environment",6,"1.781",FALSE
+"Herbivore","Forested wetland environment",3,"-0.758",FALSE
+"Insectivore","Forested wetland environment",18,"4.365",TRUE
+"Piscivore","Forested wetland environment",11,"-3.412",FALSE
+"Carnivore","Marine environment",0,"-2.228",FALSE
+"Durophageous","Marine environment",0,"-0.570",FALSE
+"Filter Feeder","Marine environment",0,"-1.191",FALSE
+"Generalist","Marine environment",0,"-0.781",FALSE
+"Herbivore","Marine environment",0,"-0.887",FALSE
+"Insectivore","Marine environment",0,"-1.273",FALSE
+"Piscivore","Marine environment",11,"4.879",TRUE
+"Carnivore","Semi-arid floodplain",6,"2.119",TRUE
+"Durophageous","Semi-arid floodplain",0,"-0.542",FALSE
+"Filter Feeder","Semi-arid floodplain",1,"-0.094",FALSE
+"Generalist","Semi-arid floodplain",1,"0.743",FALSE
+"Herbivore","Semi-arid floodplain",0,"-0.844",FALSE
+"Insectivore","Semi-arid floodplain",2,"0.762",FALSE
+"Piscivore","Semi-arid floodplain",0,"-2.258",FALSE

@@ -1,0 +1,41 @@
+"level_1","level_2","n","std_residual","over_represented"
+"Carnivore","Aeolian",0,"-1.401",FALSE
+"Durophageous","Aeolian",2,"1.360",FALSE
+"Generalist","Aeolian",0,"-0.950",FALSE
+"Insectivore","Aeolian",1,"1.264",FALSE
+"Piscivore","Aeolian",2,"0.305",FALSE
+"Carnivore","Alluvial plain",1,"-2.472",FALSE
+"Durophageous","Alluvial plain",6,"1.440",FALSE
+"Generalist","Alluvial plain",13,"6.329",TRUE
+"Insectivore","Alluvial plain",0,"-1.256",FALSE
+"Piscivore","Alluvial plain",1,"-2.945",FALSE
+"Carnivore","Coastal/Shallow marine",19,"0.898",FALSE
+"Durophageous","Coastal/Shallow marine",10,"-0.077",FALSE
+"Generalist","Coastal/Shallow marine",9,"0.064",FALSE
+"Insectivore","Coastal/Shallow marine",5,"0.776",FALSE
+"Piscivore","Coastal/Shallow marine",16,"-1.239",FALSE
+"Carnivore","Fluviodeltaic",18,"2.565",TRUE
+"Durophageous","Fluviodeltaic",8,"0.421",FALSE
+"Generalist","Fluviodeltaic",10,"1.867",FALSE
+"Insectivore","Fluviodeltaic",0,"-1.851",FALSE
+"Piscivore","Fluviodeltaic",5,"-3.221",FALSE
+"Carnivore","Lacustrine: large lake",8,"-1.490",FALSE
+"Durophageous","Lacustrine: large lake",4,"-1.541",FALSE
+"Generalist","Lacustrine: large lake",0,"-3.071",FALSE
+"Insectivore","Lacustrine: large lake",0,"-1.906",FALSE
+"Piscivore","Lacustrine: large lake",31,"5.951",TRUE
+"Carnivore","Lacustrine: small lake",13,"2.880",TRUE
+"Durophageous","Lacustrine: small lake",4,"-0.179",FALSE
+"Generalist","Lacustrine: small lake",0,"-2.231",FALSE
+"Insectivore","Lacustrine: small lake",4,"2.097",TRUE
+"Piscivore","Lacustrine: small lake",4,"-1.982",FALSE
+"Carnivore","Lagoonal deposit",2,"-2.155",FALSE
+"Durophageous","Lagoonal deposit",3,"-0.567",FALSE
+"Generalist","Lagoonal deposit",1,"-1.512",FALSE
+"Insectivore","Lagoonal deposit",4,"2.290",TRUE
+"Piscivore","Lagoonal deposit",13,"2.455",TRUE
+"Carnivore","playa",0,"-1.080",FALSE
+"Durophageous","playa",1,"0.741",FALSE
+"Generalist","playa",0,"-0.733",FALSE
+"Insectivore","playa",0,"-0.455",FALSE
+"Piscivore","playa",2,"1.219",FALSE

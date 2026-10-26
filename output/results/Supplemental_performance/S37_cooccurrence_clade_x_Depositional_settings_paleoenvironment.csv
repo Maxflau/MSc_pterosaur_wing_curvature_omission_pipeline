@@ -1,0 +1,89 @@
+"level_1","level_2","n","std_residual","over_represented"
+"Anurognathidae","Aeolian",0,"-0.439",FALSE
+"Azhdarchoidea","Aeolian",3,"1.863",FALSE
+"Basal pterodactyliform","Aeolian",0,"-0.439",FALSE
+"Darwinoptera","Aeolian",0,"-0.467",FALSE
+"Dsungaripteroidea","Aeolian",0,"-0.519",FALSE
+"Euctenochasmatia","Aeolian",0,"-0.899",FALSE
+"Eudimorphodontoidea","Aeolian",0,"-0.567",FALSE
+"Most Basal pterosaur","Aeolian",2,"4.745",TRUE
+"Ornithocheiromorpha","Aeolian",0,"-1.195",FALSE
+"Pteranodontia","Aeolian",0,"-0.590",FALSE
+"Rhamphorhynchidae","Aeolian",0,"-0.675",FALSE
+"Anurognathidae","Alluvial plain",0,"-0.936",FALSE
+"Azhdarchoidea","Alluvial plain",15,"5.249",TRUE
+"Basal pterodactyliform","Alluvial plain",0,"-0.936",FALSE
+"Darwinoptera","Alluvial plain",0,"-0.995",FALSE
+"Dsungaripteroidea","Alluvial plain",1,"-0.053",FALSE
+"Euctenochasmatia","Alluvial plain",0,"-1.915",FALSE
+"Eudimorphodontoidea","Alluvial plain",3,"1.712",FALSE
+"Most Basal pterosaur","Alluvial plain",0,"-0.873",FALSE
+"Ornithocheiromorpha","Alluvial plain",2,"-1.434",FALSE
+"Pteranodontia","Alluvial plain",0,"-1.256",FALSE
+"Rhamphorhynchidae","Alluvial plain",0,"-1.438",FALSE
+"Anurognathidae","Coastal/Shallow marine",1,"-0.931",FALSE
+"Azhdarchoidea","Coastal/Shallow marine",7,"-2.646",FALSE
+"Basal pterodactyliform","Coastal/Shallow marine",0,"-1.744",FALSE
+"Darwinoptera","Coastal/Shallow marine",2,"-0.318",FALSE
+"Dsungaripteroidea","Coastal/Shallow marine",8,"3.526",TRUE
+"Euctenochasmatia","Coastal/Shallow marine",2,"-2.681",FALSE
+"Eudimorphodontoidea","Coastal/Shallow marine",7,"2.268",TRUE
+"Most Basal pterosaur","Coastal/Shallow marine",3,"0.973",FALSE
+"Ornithocheiromorpha","Coastal/Shallow marine",10,"-1.059",FALSE
+"Pteranodontia","Coastal/Shallow marine",14,"6.387",TRUE
+"Rhamphorhynchidae","Coastal/Shallow marine",5,"0.096",FALSE
+"Anurognathidae","Fluviodeltaic",0,"-1.379",FALSE
+"Azhdarchoidea","Fluviodeltaic",18,"3.193",TRUE
+"Basal pterodactyliform","Fluviodeltaic",0,"-1.379",FALSE
+"Darwinoptera","Fluviodeltaic",0,"-1.466",FALSE
+"Dsungaripteroidea","Fluviodeltaic",0,"-1.629",FALSE
+"Euctenochasmatia","Fluviodeltaic",2,"-1.812",FALSE
+"Eudimorphodontoidea","Fluviodeltaic",2,"-0.310",FALSE
+"Most Basal pterosaur","Fluviodeltaic",1,"-0.300",FALSE
+"Ornithocheiromorpha","Fluviodeltaic",18,"3.796",TRUE
+"Pteranodontia","Fluviodeltaic",0,"-1.851",FALSE
+"Rhamphorhynchidae","Fluviodeltaic",0,"-2.119",FALSE
+"Anurognathidae","Lacustrine: large lake",1,"-0.512",FALSE
+"Azhdarchoidea","Lacustrine: large lake",10,"-0.219",FALSE
+"Basal pterodactyliform","Lacustrine: large lake",0,"-1.420",FALSE
+"Darwinoptera","Lacustrine: large lake",0,"-1.510",FALSE
+"Dsungaripteroidea","Lacustrine: large lake",0,"-1.677",FALSE
+"Euctenochasmatia","Lacustrine: large lake",13,"3.536",TRUE
+"Eudimorphodontoidea","Lacustrine: large lake",0,"-1.832",FALSE
+"Most Basal pterosaur","Lacustrine: large lake",1,"-0.357",FALSE
+"Ornithocheiromorpha","Lacustrine: large lake",18,"3.548",TRUE
+"Pteranodontia","Lacustrine: large lake",0,"-1.906",FALSE
+"Rhamphorhynchidae","Lacustrine: large lake",0,"-2.182",FALSE
+"Anurognathidae","Lacustrine: small lake",6,"5.777",TRUE
+"Azhdarchoidea","Lacustrine: small lake",0,"-3.029",FALSE
+"Basal pterodactyliform","Lacustrine: small lake",3,"2.373",TRUE
+"Darwinoptera","Lacustrine: small lake",7,"6.410",TRUE
+"Dsungaripteroidea","Lacustrine: small lake",0,"-1.218",FALSE
+"Euctenochasmatia","Lacustrine: small lake",1,"-1.491",FALSE
+"Eudimorphodontoidea","Lacustrine: small lake",1,"-0.430",FALSE
+"Most Basal pterosaur","Lacustrine: small lake",0,"-0.963",FALSE
+"Ornithocheiromorpha","Lacustrine: small lake",0,"-2.806",FALSE
+"Pteranodontia","Lacustrine: small lake",0,"-1.385",FALSE
+"Rhamphorhynchidae","Lacustrine: small lake",7,"3.840",TRUE
+"Anurognathidae","Lagoonal deposit",0,"-0.985",FALSE
+"Azhdarchoidea","Lagoonal deposit",0,"-2.891",FALSE
+"Basal pterodactyliform","Lagoonal deposit",5,"4.901",TRUE
+"Darwinoptera","Lagoonal deposit",0,"-1.047",FALSE
+"Dsungaripteroidea","Lagoonal deposit",2,"0.859",FALSE
+"Euctenochasmatia","Lagoonal deposit",11,"5.049",TRUE
+"Eudimorphodontoidea","Lagoonal deposit",0,"-1.270",FALSE
+"Most Basal pterosaur","Lagoonal deposit",0,"-0.919",FALSE
+"Ornithocheiromorpha","Lagoonal deposit",0,"-2.677",FALSE
+"Pteranodontia","Lagoonal deposit",0,"-1.321",FALSE
+"Rhamphorhynchidae","Lagoonal deposit",5,"2.507",TRUE
+"Anurognathidae","playa",0,"-0.339",FALSE
+"Azhdarchoidea","playa",1,"0.356",FALSE
+"Basal pterodactyliform","playa",0,"-0.339",FALSE
+"Darwinoptera","playa",0,"-0.360",FALSE
+"Dsungaripteroidea","playa",0,"-0.400",FALSE
+"Euctenochasmatia","playa",1,"1.001",FALSE
+"Eudimorphodontoidea","playa",0,"-0.437",FALSE
+"Most Basal pterosaur","playa",0,"-0.316",FALSE
+"Ornithocheiromorpha","playa",0,"-0.921",FALSE
+"Pteranodontia","playa",0,"-0.455",FALSE
+"Rhamphorhynchidae","playa",1,"1.600",FALSE

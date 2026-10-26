@@ -1,0 +1,41 @@
+"level_1","level_2","n","std_residual","over_represented"
+"Carnivore","Archipelago",2,"-2.773",FALSE
+"Durophageous","Archipelago",3,"-1.134",FALSE
+"Generalist","Archipelago",4,"-0.275",FALSE
+"Insectivore","Archipelago",4,"1.683",FALSE
+"Piscivore","Archipelago",17,"2.873",TRUE
+"Carnivore","Coastal environment",11,"-0.350",FALSE
+"Durophageous","Coastal environment",12,"2.057",TRUE
+"Generalist","Coastal environment",3,"-1.643",FALSE
+"Insectivore","Coastal environment",5,"1.577",FALSE
+"Piscivore","Coastal environment",12,"-0.887",FALSE
+"Carnivore","Desert",0,"-1.401",FALSE
+"Durophageous","Desert",2,"1.360",FALSE
+"Generalist","Desert",0,"-0.950",FALSE
+"Insectivore","Desert",1,"1.264",FALSE
+"Piscivore","Desert",2,"0.305",FALSE
+"Carnivore","Floodplain",18,"2.308",TRUE
+"Durophageous","Floodplain",9,"0.707",FALSE
+"Generalist","Floodplain",12,"2.643",TRUE
+"Insectivore","Floodplain",0,"-1.906",FALSE
+"Piscivore","Floodplain",4,"-3.765",FALSE
+"Carnivore","Fluvial environment",1,"-1.417",FALSE
+"Durophageous","Fluvial environment",0,"-1.555",FALSE
+"Generalist","Fluvial environment",9,"6.368",TRUE
+"Insectivore","Fluvial environment",0,"-0.887",FALSE
+"Piscivore","Fluvial environment",1,"-1.768",FALSE
+"Carnivore","Forested wetland environment",21,"0.793",FALSE
+"Durophageous","Forested wetland environment",7,"-1.772",FALSE
+"Generalist","Forested wetland environment",0,"-4.123",FALSE
+"Insectivore","Forested wetland environment",4,"-0.158",FALSE
+"Piscivore","Forested wetland environment",35,"3.865",TRUE
+"Carnivore","Marine environment",8,"3.421",TRUE
+"Durophageous","Marine environment",0,"-1.555",FALSE
+"Generalist","Marine environment",3,"1.170",FALSE
+"Insectivore","Marine environment",0,"-0.887",FALSE
+"Piscivore","Marine environment",0,"-2.423",FALSE
+"Carnivore","Semi-arid floodplain",0,"-2.005",FALSE
+"Durophageous","Semi-arid floodplain",5,"2.802",TRUE
+"Generalist","Semi-arid floodplain",2,"0.453",FALSE
+"Insectivore","Semi-arid floodplain",0,"-0.844",FALSE
+"Piscivore","Semi-arid floodplain",3,"-0.249",FALSE

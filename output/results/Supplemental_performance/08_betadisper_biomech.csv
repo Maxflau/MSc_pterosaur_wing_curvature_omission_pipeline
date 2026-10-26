@@ -1,0 +1,5 @@
+"Factor","Term","Df","SumSq","MeanSq","F","N.Perm","p_value"
+"clade","Groups",10,"11.3434","1.1343","2.731",9999,"0.0059"
+"clade","Residuals",209,"86.8219","0.4154",NA,NA,NA
+"Diet_combined","Groups",14,"22.5316","1.6094","2.196",9999,"0.0116"
+"Diet_combined","Residuals",205,"150.2618","0.7330",NA,NA,NA

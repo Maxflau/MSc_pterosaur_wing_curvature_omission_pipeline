@@ -1,0 +1,6 @@
+"Time_Bin","n","mean_age","mean_PRR","lo","hi","pct_on_front"
+"Late Triassic",15,207.7,0.9141,0.8702,0.9531,40
+"Early+Middle Jurassic",12,178.1,0.8368,0.7696,0.9045,25
+"Late Jurassic",55,152.9,0.666,0.5949,0.7335,18.2
+"Early Cretaceous",90,120.6,0.488,0.4364,0.5408,4.4
+"Late Cretaceous",48,82.8,0.4121,0.3147,0.5102,12.5

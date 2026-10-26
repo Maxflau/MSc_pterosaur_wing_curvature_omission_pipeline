@@ -1,0 +1,331 @@
+"metric","group_1","group_2","Z","p_unadjusted","p_adjusted_BH","significant"
+"aspect_ratio","Anurognathidae","Azhdarchoidea","1.618","0.1057","0.1661",FALSE
+"aspect_ratio","Anurognathidae","Basal pterodactyliform","0.729","0.4661","0.5962",FALSE
+"aspect_ratio","Azhdarchoidea","Basal pterodactyliform","-0.656","0.5119","0.6256",FALSE
+"aspect_ratio","Anurognathidae","Darwinoptera","1.348","0.1775","0.2639",FALSE
+"aspect_ratio","Azhdarchoidea","Darwinoptera","0.118","0.9064","0.9232",FALSE
+"aspect_ratio","Basal pterodactyliform","Darwinoptera","0.599","0.5495","0.6296",FALSE
+"aspect_ratio","Anurognathidae","Dsungaripteroidea","-0.600","0.5483","0.6416",FALSE
+"aspect_ratio","Azhdarchoidea","Dsungaripteroidea","-2.696","0.0070","0.0161",TRUE
+"aspect_ratio","Basal pterodactyliform","Dsungaripteroidea","-1.384","0.1662","0.2539",FALSE
+"aspect_ratio","Darwinoptera","Dsungaripteroidea","-2.078","0.0377","0.0715",FALSE
+"aspect_ratio","Anurognathidae","Euctenochasmatia","0.465","0.6421","0.6925",FALSE
+"aspect_ratio","Azhdarchoidea","Euctenochasmatia","-1.879","0.0602","0.1034",FALSE
+"aspect_ratio","Basal pterodactyliform","Euctenochasmatia","-0.451","0.6520","0.6766",FALSE
+"aspect_ratio","Darwinoptera","Euctenochasmatia","-1.237","0.2159","0.3045",FALSE
+"aspect_ratio","Dsungaripteroidea","Euctenochasmatia","1.316","0.1882","0.2724",FALSE
+"aspect_ratio","Anurognathidae","Eudimorphodontoidea","-1.133","0.2571","0.3449",FALSE
+"aspect_ratio","Azhdarchoidea","Eudimorphodontoidea","-3.632","0.0003","0.0012",TRUE
+"aspect_ratio","Basal pterodactyliform","Eudimorphodontoidea","-1.944","0.0519","0.0921",FALSE
+"aspect_ratio","Darwinoptera","Eudimorphodontoidea","-2.685","0.0072","0.0159",TRUE
+"aspect_ratio","Dsungaripteroidea","Eudimorphodontoidea","-0.562","0.5740","0.6443",FALSE
+"aspect_ratio","Euctenochasmatia","Eudimorphodontoidea","-2.090","0.0366","0.0718",FALSE
+"aspect_ratio","Anurognathidae","Most Basal pterosaur","1.712","0.0868","0.1447",FALSE
+"aspect_ratio","Azhdarchoidea","Most Basal pterosaur","0.680","0.4963","0.6203",FALSE
+"aspect_ratio","Basal pterodactyliform","Most Basal pterosaur","1.008","0.3133","0.4103",FALSE
+"aspect_ratio","Darwinoptera","Most Basal pterosaur","0.458","0.6467","0.6840",FALSE
+"aspect_ratio","Dsungaripteroidea","Most Basal pterosaur","2.410","0.0160","0.0338",TRUE
+"aspect_ratio","Euctenochasmatia","Most Basal pterosaur","1.671","0.0948","0.1533",FALSE
+"aspect_ratio","Eudimorphodontoidea","Most Basal pterosaur","2.977","0.0029","0.0080",TRUE
+"aspect_ratio","Anurognathidae","Ornithocheiromorpha","-3.746","0.0002","0.0008",TRUE
+"aspect_ratio","Azhdarchoidea","Ornithocheiromorpha","-10.301","0.0000","0.0000",TRUE
+"aspect_ratio","Basal pterodactyliform","Ornithocheiromorpha","-4.700","0.0000","0.0000",TRUE
+"aspect_ratio","Darwinoptera","Ornithocheiromorpha","-5.742","0.0000","0.0000",TRUE
+"aspect_ratio","Dsungaripteroidea","Ornithocheiromorpha","-3.445","0.0006","0.0021",TRUE
+"aspect_ratio","Euctenochasmatia","Ornithocheiromorpha","-6.941","0.0000","0.0000",TRUE
+"aspect_ratio","Eudimorphodontoidea","Ornithocheiromorpha","-2.947","0.0032","0.0084",TRUE
+"aspect_ratio","Most Basal pterosaur","Ornithocheiromorpha","-5.726","0.0000","0.0000",TRUE
+"aspect_ratio","Anurognathidae","Pteranodontia","-3.587","0.0003","0.0013",TRUE
+"aspect_ratio","Azhdarchoidea","Pteranodontia","-7.345","0.0000","0.0000",TRUE
+"aspect_ratio","Basal pterodactyliform","Pteranodontia","-4.410","0.0000","0.0001",TRUE
+"aspect_ratio","Darwinoptera","Pteranodontia","-5.255","0.0000","0.0000",TRUE
+"aspect_ratio","Dsungaripteroidea","Pteranodontia","-3.254","0.0011","0.0037",TRUE
+"aspect_ratio","Euctenochasmatia","Pteranodontia","-5.484","0.0000","0.0000",TRUE
+"aspect_ratio","Eudimorphodontoidea","Pteranodontia","-2.806","0.0050","0.0120",TRUE
+"aspect_ratio","Most Basal pterosaur","Pteranodontia","-5.349","0.0000","0.0000",TRUE
+"aspect_ratio","Ornithocheiromorpha","Pteranodontia","-0.525","0.5996","0.6596",FALSE
+"aspect_ratio","Anurognathidae","Rhamphorhynchidae","-1.206","0.2278","0.3132",FALSE
+"aspect_ratio","Azhdarchoidea","Rhamphorhynchidae","-4.135","0.0000","0.0002",TRUE
+"aspect_ratio","Basal pterodactyliform","Rhamphorhynchidae","-2.064","0.0391","0.0716",FALSE
+"aspect_ratio","Darwinoptera","Rhamphorhynchidae","-2.860","0.0042","0.0106",TRUE
+"aspect_ratio","Dsungaripteroidea","Rhamphorhynchidae","-0.610","0.5417","0.6477",FALSE
+"aspect_ratio","Euctenochasmatia","Rhamphorhynchidae","-2.339","0.0193","0.0394",TRUE
+"aspect_ratio","Eudimorphodontoidea","Rhamphorhynchidae","-0.009","0.9929","0.9929",FALSE
+"aspect_ratio","Most Basal pterosaur","Rhamphorhynchidae","-3.140","0.0017","0.0052",TRUE
+"aspect_ratio","Ornithocheiromorpha","Rhamphorhynchidae","3.322","0.0009","0.0031",TRUE
+"aspect_ratio","Pteranodontia","Rhamphorhynchidae","3.024","0.0025","0.0072",TRUE
+"r2_hat","Anurognathidae","Azhdarchoidea","3.937","0.0001","0.0002",TRUE
+"r2_hat","Anurognathidae","Basal pterodactyliform","1.606","0.1082","0.1653",FALSE
+"r2_hat","Azhdarchoidea","Basal pterodactyliform","-1.817","0.0692","0.1120",FALSE
+"r2_hat","Anurognathidae","Darwinoptera","-0.283","0.7769","0.8062",FALSE
+"r2_hat","Azhdarchoidea","Darwinoptera","-4.525","0.0000","0.0000",TRUE
+"r2_hat","Basal pterodactyliform","Darwinoptera","-1.936","0.0528","0.0881",FALSE
+"r2_hat","Anurognathidae","Dsungaripteroidea","3.859","0.0001","0.0003",TRUE
+"r2_hat","Azhdarchoidea","Dsungaripteroidea","0.911","0.3622","0.4633",FALSE
+"r2_hat","Basal pterodactyliform","Dsungaripteroidea","2.130","0.0332","0.0608",FALSE
+"r2_hat","Darwinoptera","Dsungaripteroidea","4.295","0.0000","0.0001",TRUE
+"r2_hat","Anurognathidae","Euctenochasmatia","3.339","0.0008","0.0019",TRUE
+"r2_hat","Azhdarchoidea","Euctenochasmatia","-0.716","0.4738","0.5791",FALSE
+"r2_hat","Basal pterodactyliform","Euctenochasmatia","1.320","0.1868","0.2704",FALSE
+"r2_hat","Darwinoptera","Euctenochasmatia","3.858","0.0001","0.0003",TRUE
+"r2_hat","Dsungaripteroidea","Euctenochasmatia","-1.318","0.1876","0.2645",FALSE
+"r2_hat","Anurognathidae","Eudimorphodontoidea","0.144","0.8853","0.8853",FALSE
+"r2_hat","Azhdarchoidea","Eudimorphodontoidea","-4.618","0.0000","0.0000",TRUE
+"r2_hat","Basal pterodactyliform","Eudimorphodontoidea","-1.643","0.1003","0.1577",FALSE
+"r2_hat","Darwinoptera","Eudimorphodontoidea","0.467","0.6405","0.7046",FALSE
+"r2_hat","Dsungaripteroidea","Eudimorphodontoidea","-4.218","0.0000","0.0001",TRUE
+"r2_hat","Euctenochasmatia","Eudimorphodontoidea","-3.806","0.0001","0.0004",TRUE
+"r2_hat","Anurognathidae","Most Basal pterosaur","-0.469","0.6392","0.7174",FALSE
+"r2_hat","Azhdarchoidea","Most Basal pterosaur","-4.317","0.0000","0.0001",TRUE
+"r2_hat","Basal pterodactyliform","Most Basal pterosaur","-2.021","0.0433","0.0768",FALSE
+"r2_hat","Darwinoptera","Most Basal pterosaur","-0.208","0.8350","0.8504",FALSE
+"r2_hat","Dsungaripteroidea","Most Basal pterosaur","-4.210","0.0000","0.0001",TRUE
+"r2_hat","Euctenochasmatia","Most Basal pterosaur","-3.743","0.0002","0.0004",TRUE
+"r2_hat","Eudimorphodontoidea","Most Basal pterosaur","-0.656","0.5119","0.6121",FALSE
+"r2_hat","Anurognathidae","Ornithocheiromorpha","5.394","0.0000","0.0000",TRUE
+"r2_hat","Azhdarchoidea","Ornithocheiromorpha","2.864","0.0042","0.0082",TRUE
+"r2_hat","Basal pterodactyliform","Ornithocheiromorpha","3.290","0.0010","0.0021",TRUE
+"r2_hat","Darwinoptera","Ornithocheiromorpha","6.049","0.0000","0.0000",TRUE
+"r2_hat","Dsungaripteroidea","Ornithocheiromorpha","0.798","0.4249","0.5311",FALSE
+"r2_hat","Euctenochasmatia","Ornithocheiromorpha","3.142","0.0017","0.0034",TRUE
+"r2_hat","Eudimorphodontoidea","Ornithocheiromorpha","6.380","0.0000","0.0000",TRUE
+"r2_hat","Most Basal pterosaur","Ornithocheiromorpha","5.691","0.0000","0.0000",TRUE
+"r2_hat","Anurognathidae","Pteranodontia","4.433","0.0000","0.0000",TRUE
+"r2_hat","Azhdarchoidea","Pteranodontia","1.577","0.1147","0.1705",FALSE
+"r2_hat","Basal pterodactyliform","Pteranodontia","2.621","0.0088","0.0167",TRUE
+"r2_hat","Darwinoptera","Pteranodontia","4.921","0.0000","0.0000",TRUE
+"r2_hat","Dsungaripteroidea","Pteranodontia","0.426","0.6700","0.7226",FALSE
+"r2_hat","Euctenochasmatia","Pteranodontia","1.966","0.0493","0.0848",FALSE
+"r2_hat","Eudimorphodontoidea","Pteranodontia","4.932","0.0000","0.0000",TRUE
+"r2_hat","Most Basal pterosaur","Pteranodontia","4.768","0.0000","0.0000",TRUE
+"r2_hat","Ornithocheiromorpha","Pteranodontia","-0.313","0.7543","0.7978",FALSE
+"r2_hat","Anurognathidae","Rhamphorhynchidae","0.574","0.5662","0.6626",FALSE
+"r2_hat","Azhdarchoidea","Rhamphorhynchidae","-4.585","0.0000","0.0000",TRUE
+"r2_hat","Basal pterodactyliform","Rhamphorhynchidae","-1.317","0.1880","0.2584",FALSE
+"r2_hat","Darwinoptera","Rhamphorhynchidae","0.934","0.3502","0.4586",FALSE
+"r2_hat","Dsungaripteroidea","Rhamphorhynchidae","-4.048","0.0001","0.0002",TRUE
+"r2_hat","Euctenochasmatia","Rhamphorhynchidae","-3.638","0.0003","0.0006",TRUE
+"r2_hat","Eudimorphodontoidea","Rhamphorhynchidae","0.492","0.6230","0.7139",FALSE
+"r2_hat","Most Basal pterosaur","Rhamphorhynchidae","1.092","0.2749","0.3687",FALSE
+"r2_hat","Ornithocheiromorpha","Rhamphorhynchidae","-6.570","0.0000","0.0000",TRUE
+"r2_hat","Pteranodontia","Rhamphorhynchidae","-4.829","0.0000","0.0000",TRUE
+"von_mises_stress","Anurognathidae","Azhdarchoidea","4.430","0.0000","0.0001",TRUE
+"von_mises_stress","Anurognathidae","Basal pterodactyliform","2.502","0.0123","0.0295",TRUE
+"von_mises_stress","Azhdarchoidea","Basal pterodactyliform","-1.128","0.2593","0.4195",FALSE
+"von_mises_stress","Anurognathidae","Darwinoptera","0.730","0.4653","0.5951",FALSE
+"von_mises_stress","Azhdarchoidea","Darwinoptera","-3.676","0.0002","0.0011",TRUE
+"von_mises_stress","Basal pterodactyliform","Darwinoptera","-1.844","0.0651","0.1327",FALSE
+"von_mises_stress","Anurognathidae","Dsungaripteroidea","3.466","0.0005","0.0019",TRUE
+"von_mises_stress","Azhdarchoidea","Dsungaripteroidea","-0.204","0.8381","0.9408",FALSE
+"von_mises_stress","Basal pterodactyliform","Dsungaripteroidea","0.774","0.4388","0.5747",FALSE
+"von_mises_stress","Darwinoptera","Dsungaripteroidea","2.794","0.0052","0.0136",TRUE
+"von_mises_stress","Anurognathidae","Euctenochasmatia","3.937","0.0001","0.0004",TRUE
+"von_mises_stress","Azhdarchoidea","Euctenochasmatia","-0.490","0.6239","0.7459",FALSE
+"von_mises_stress","Basal pterodactyliform","Euctenochasmatia","0.793","0.4276","0.5736",FALSE
+"von_mises_stress","Darwinoptera","Euctenochasmatia","3.188","0.0014","0.0044",TRUE
+"von_mises_stress","Dsungaripteroidea","Euctenochasmatia","-0.125","0.9005","0.9344",FALSE
+"von_mises_stress","Anurognathidae","Eudimorphodontoidea","0.869","0.3847","0.5289",FALSE
+"von_mises_stress","Azhdarchoidea","Eudimorphodontoidea","-4.168","0.0000","0.0002",TRUE
+"von_mises_stress","Basal pterodactyliform","Eudimorphodontoidea","-1.914","0.0556","0.1175",FALSE
+"von_mises_stress","Darwinoptera","Eudimorphodontoidea","0.083","0.9341","0.9514",FALSE
+"von_mises_stress","Dsungaripteroidea","Eudimorphodontoidea","-2.978","0.0029","0.0080",TRUE
+"von_mises_stress","Euctenochasmatia","Eudimorphodontoidea","-3.541","0.0004","0.0017",TRUE
+"von_mises_stress","Anurognathidae","Most Basal pterosaur","0.879","0.3793","0.5349",FALSE
+"von_mises_stress","Azhdarchoidea","Most Basal pterosaur","-3.045","0.0023","0.0067",TRUE
+"von_mises_stress","Basal pterodactyliform","Most Basal pterosaur","-1.538","0.1241","0.2202",FALSE
+"von_mises_stress","Darwinoptera","Most Basal pterosaur","0.199","0.8423","0.9266",FALSE
+"von_mises_stress","Dsungaripteroidea","Most Basal pterosaur","-2.390","0.0168","0.0386",TRUE
+"von_mises_stress","Euctenochasmatia","Most Basal pterosaur","-2.648","0.0081","0.0202",TRUE
+"von_mises_stress","Eudimorphodontoidea","Most Basal pterosaur","0.137","0.8907","0.9421",FALSE
+"von_mises_stress","Anurognathidae","Ornithocheiromorpha","0.056","0.9556","0.9556",FALSE
+"von_mises_stress","Azhdarchoidea","Ornithocheiromorpha","-8.353","0.0000","0.0000",TRUE
+"von_mises_stress","Basal pterodactyliform","Ornithocheiromorpha","-3.220","0.0013","0.0041",TRUE
+"von_mises_stress","Darwinoptera","Ornithocheiromorpha","-0.918","0.3585","0.5189",FALSE
+"von_mises_stress","Dsungaripteroidea","Ornithocheiromorpha","-4.755","0.0000","0.0000",TRUE
+"von_mises_stress","Euctenochasmatia","Ornithocheiromorpha","-6.640","0.0000","0.0000",TRUE
+"von_mises_stress","Eudimorphodontoidea","Ornithocheiromorpha","-1.181","0.2375","0.3958",FALSE
+"von_mises_stress","Most Basal pterosaur","Ornithocheiromorpha","-1.072","0.2837","0.4458",FALSE
+"von_mises_stress","Anurognathidae","Pteranodontia","-0.642","0.5210","0.6367",FALSE
+"von_mises_stress","Azhdarchoidea","Pteranodontia","-6.544","0.0000","0.0000",TRUE
+"von_mises_stress","Basal pterodactyliform","Pteranodontia","-3.464","0.0005","0.0018",TRUE
+"von_mises_stress","Darwinoptera","Pteranodontia","-1.496","0.1346","0.2313",FALSE
+"von_mises_stress","Dsungaripteroidea","Pteranodontia","-4.704","0.0000","0.0000",TRUE
+"von_mises_stress","Euctenochasmatia","Pteranodontia","-5.719","0.0000","0.0000",TRUE
+"von_mises_stress","Eudimorphodontoidea","Pteranodontia","-1.753","0.0796","0.1564",FALSE
+"von_mises_stress","Most Basal pterosaur","Pteranodontia","-1.598","0.1102","0.2089",FALSE
+"von_mises_stress","Ornithocheiromorpha","Pteranodontia","-1.007","0.3141","0.4799",FALSE
+"von_mises_stress","Anurognathidae","Rhamphorhynchidae","0.656","0.5117","0.6396",FALSE
+"von_mises_stress","Azhdarchoidea","Rhamphorhynchidae","-5.142","0.0000","0.0000",TRUE
+"von_mises_stress","Basal pterodactyliform","Rhamphorhynchidae","-2.288","0.0222","0.0488",TRUE
+"von_mises_stress","Darwinoptera","Rhamphorhynchidae","-0.186","0.8524","0.9193",FALSE
+"von_mises_stress","Dsungaripteroidea","Rhamphorhynchidae","-3.480","0.0005","0.0020",TRUE
+"von_mises_stress","Euctenochasmatia","Rhamphorhynchidae","-4.319","0.0000","0.0001",TRUE
+"von_mises_stress","Eudimorphodontoidea","Rhamphorhynchidae","-0.307","0.7588","0.8694",FALSE
+"von_mises_stress","Most Basal pterosaur","Rhamphorhynchidae","-0.396","0.6925","0.8103",FALSE
+"von_mises_stress","Ornithocheiromorpha","Rhamphorhynchidae","0.932","0.3514","0.5223",FALSE
+"von_mises_stress","Pteranodontia","Rhamphorhynchidae","1.581","0.1139","0.2088",FALSE
+"trailing_edge","Anurognathidae","Azhdarchoidea","-0.427","0.6695","0.8183",FALSE
+"trailing_edge","Anurognathidae","Basal pterodactyliform","0.978","0.3281","0.5821",FALSE
+"trailing_edge","Azhdarchoidea","Basal pterodactyliform","1.718","0.0859","0.2249",FALSE
+"trailing_edge","Anurognathidae","Darwinoptera","-0.394","0.6937","0.8294",FALSE
+"trailing_edge","Azhdarchoidea","Darwinoptera","-0.082","0.9343","0.9696",FALSE
+"trailing_edge","Basal pterodactyliform","Darwinoptera","-1.400","0.1615","0.3289",FALSE
+"trailing_edge","Anurognathidae","Dsungaripteroidea","1.033","0.3015","0.5719",FALSE
+"trailing_edge","Azhdarchoidea","Dsungaripteroidea","1.940","0.0524","0.1441",FALSE
+"trailing_edge","Basal pterodactyliform","Dsungaripteroidea","-0.019","0.9847","0.9847",FALSE
+"trailing_edge","Darwinoptera","Dsungaripteroidea","1.494","0.1352","0.2975",FALSE
+"trailing_edge","Anurognathidae","Euctenochasmatia","0.864","0.3878","0.6094",FALSE
+"trailing_edge","Azhdarchoidea","Euctenochasmatia","2.219","0.0265","0.0766",FALSE
+"trailing_edge","Basal pterodactyliform","Euctenochasmatia","-0.365","0.7150","0.8025",FALSE
+"trailing_edge","Darwinoptera","Euctenochasmatia","1.408","0.1592","0.3368",FALSE
+"trailing_edge","Dsungaripteroidea","Euctenochasmatia","-0.387","0.6988","0.8177",FALSE
+"trailing_edge","Anurognathidae","Eudimorphodontoidea","0.309","0.7574","0.8331",FALSE
+"trailing_edge","Azhdarchoidea","Eudimorphodontoidea","0.973","0.3307","0.5684",FALSE
+"trailing_edge","Basal pterodactyliform","Eudimorphodontoidea","-0.779","0.4358","0.6146",FALSE
+"trailing_edge","Darwinoptera","Eudimorphodontoidea","0.761","0.4464","0.6138",FALSE
+"trailing_edge","Dsungaripteroidea","Eudimorphodontoidea","-0.833","0.4049","0.6019",FALSE
+"trailing_edge","Euctenochasmatia","Eudimorphodontoidea","-0.617","0.5373","0.7036",FALSE
+"trailing_edge","Anurognathidae","Most Basal pterosaur","-0.600","0.5485","0.7015",FALSE
+"trailing_edge","Azhdarchoidea","Most Basal pterosaur","-0.371","0.7109","0.8146",FALSE
+"trailing_edge","Basal pterodactyliform","Most Basal pterosaur","-1.545","0.1224","0.2805",FALSE
+"trailing_edge","Darwinoptera","Most Basal pterosaur","-0.237","0.8130","0.8599",FALSE
+"trailing_edge","Dsungaripteroidea","Most Basal pterosaur","-1.635","0.1020","0.2550",FALSE
+"trailing_edge","Euctenochasmatia","Most Basal pterosaur","-1.559","0.1191","0.2848",FALSE
+"trailing_edge","Eudimorphodontoidea","Most Basal pterosaur","-0.959","0.3378","0.5630",FALSE
+"trailing_edge","Anurognathidae","Ornithocheiromorpha","4.522","0.0000","0.0000",TRUE
+"trailing_edge","Azhdarchoidea","Ornithocheiromorpha","9.520","0.0000","0.0000",TRUE
+"trailing_edge","Basal pterodactyliform","Ornithocheiromorpha","3.241","0.0012","0.0038",TRUE
+"trailing_edge","Darwinoptera","Ornithocheiromorpha","5.281","0.0000","0.0000",TRUE
+"trailing_edge","Dsungaripteroidea","Ornithocheiromorpha","3.730","0.0002","0.0007",TRUE
+"trailing_edge","Euctenochasmatia","Ornithocheiromorpha","5.943","0.0000","0.0000",TRUE
+"trailing_edge","Eudimorphodontoidea","Ornithocheiromorpha","5.079","0.0000","0.0000",TRUE
+"trailing_edge","Most Basal pterosaur","Ornithocheiromorpha","5.036","0.0000","0.0000",TRUE
+"trailing_edge","Anurognathidae","Pteranodontia","4.290","0.0000","0.0001",TRUE
+"trailing_edge","Azhdarchoidea","Pteranodontia","6.878","0.0000","0.0000",TRUE
+"trailing_edge","Basal pterodactyliform","Pteranodontia","3.186","0.0014","0.0044",TRUE
+"trailing_edge","Darwinoptera","Pteranodontia","4.898","0.0000","0.0000",TRUE
+"trailing_edge","Dsungaripteroidea","Pteranodontia","3.527","0.0004","0.0014",TRUE
+"trailing_edge","Euctenochasmatia","Pteranodontia","4.812","0.0000","0.0000",TRUE
+"trailing_edge","Eudimorphodontoidea","Pteranodontia","4.576","0.0000","0.0000",TRUE
+"trailing_edge","Most Basal pterosaur","Pteranodontia","4.778","0.0000","0.0000",TRUE
+"trailing_edge","Ornithocheiromorpha","Pteranodontia","0.574","0.5659","0.7073",FALSE
+"trailing_edge","Anurognathidae","Rhamphorhynchidae","0.308","0.7584","0.8179",FALSE
+"trailing_edge","Azhdarchoidea","Rhamphorhynchidae","1.074","0.2827","0.5553",FALSE
+"trailing_edge","Basal pterodactyliform","Rhamphorhynchidae","-0.843","0.3991","0.6098",FALSE
+"trailing_edge","Darwinoptera","Rhamphorhynchidae","0.789","0.4302","0.6226",FALSE
+"trailing_edge","Dsungaripteroidea","Rhamphorhynchidae","-0.913","0.3613","0.5845",FALSE
+"trailing_edge","Euctenochasmatia","Rhamphorhynchidae","-0.714","0.4750","0.6373",FALSE
+"trailing_edge","Eudimorphodontoidea","Rhamphorhynchidae","-0.022","0.9822","1.0000",FALSE
+"trailing_edge","Most Basal pterosaur","Rhamphorhynchidae","0.991","0.3219","0.5901",FALSE
+"trailing_edge","Ornithocheiromorpha","Rhamphorhynchidae","-5.775","0.0000","0.0000",TRUE
+"trailing_edge","Pteranodontia","Rhamphorhynchidae","-4.969","0.0000","0.0000",TRUE
+"shape_complexity","Anurognathidae","Azhdarchoidea","-0.460","0.6452","0.7551",FALSE
+"shape_complexity","Anurognathidae","Basal pterodactyliform","-0.687","0.4919","0.6148",FALSE
+"shape_complexity","Azhdarchoidea","Basal pterodactyliform","-0.447","0.6551","0.7506",FALSE
+"shape_complexity","Anurognathidae","Darwinoptera","0.137","0.8907","0.9072",FALSE
+"shape_complexity","Azhdarchoidea","Darwinoptera","0.670","0.5029","0.6147",FALSE
+"shape_complexity","Basal pterodactyliform","Darwinoptera","0.845","0.3983","0.5343",FALSE
+"shape_complexity","Anurognathidae","Dsungaripteroidea","-2.693","0.0071","0.0195",TRUE
+"shape_complexity","Azhdarchoidea","Dsungaripteroidea","-3.256","0.0011","0.0041",TRUE
+"shape_complexity","Basal pterodactyliform","Dsungaripteroidea","-1.954","0.0507","0.0900",FALSE
+"shape_complexity","Darwinoptera","Dsungaripteroidea","-2.933","0.0034","0.0103",TRUE
+"shape_complexity","Anurognathidae","Euctenochasmatia","-2.046","0.0408","0.0801",FALSE
+"shape_complexity","Azhdarchoidea","Euctenochasmatia","-2.809","0.0050","0.0144",TRUE
+"shape_complexity","Basal pterodactyliform","Euctenochasmatia","-1.182","0.2371","0.3344",FALSE
+"shape_complexity","Darwinoptera","Euctenochasmatia","-2.318","0.0205","0.0512",FALSE
+"shape_complexity","Dsungaripteroidea","Euctenochasmatia","1.241","0.2146","0.3106",FALSE
+"shape_complexity","Anurognathidae","Eudimorphodontoidea","-2.054","0.0400","0.0814",FALSE
+"shape_complexity","Azhdarchoidea","Eudimorphodontoidea","-2.423","0.0154","0.0403",TRUE
+"shape_complexity","Basal pterodactyliform","Eudimorphodontoidea","-1.289","0.1973","0.2933",FALSE
+"shape_complexity","Darwinoptera","Eudimorphodontoidea","-2.282","0.0225","0.0515",FALSE
+"shape_complexity","Dsungaripteroidea","Eudimorphodontoidea","0.802","0.4227","0.5406",FALSE
+"shape_complexity","Euctenochasmatia","Eudimorphodontoidea","-0.328","0.7429","0.8011",FALSE
+"shape_complexity","Anurognathidae","Most Basal pterosaur","-0.279","0.7805","0.8256",FALSE
+"shape_complexity","Azhdarchoidea","Most Basal pterosaur","0.075","0.9400","0.9400",FALSE
+"shape_complexity","Basal pterodactyliform","Most Basal pterosaur","0.385","0.6999","0.7699",FALSE
+"shape_complexity","Darwinoptera","Most Basal pterosaur","-0.419","0.6755","0.7582",FALSE
+"shape_complexity","Dsungaripteroidea","Most Basal pterosaur","2.290","0.0220","0.0526",FALSE
+"shape_complexity","Euctenochasmatia","Most Basal pterosaur","1.596","0.1105","0.1788",FALSE
+"shape_complexity","Eudimorphodontoidea","Most Basal pterosaur","1.661","0.0967","0.1611",FALSE
+"shape_complexity","Anurognathidae","Ornithocheiromorpha","-4.988","0.0000","0.0000",TRUE
+"shape_complexity","Azhdarchoidea","Ornithocheiromorpha","-8.723","0.0000","0.0000",TRUE
+"shape_complexity","Basal pterodactyliform","Ornithocheiromorpha","-4.088","0.0000","0.0002",TRUE
+"shape_complexity","Darwinoptera","Ornithocheiromorpha","-5.428","0.0000","0.0000",TRUE
+"shape_complexity","Dsungaripteroidea","Ornithocheiromorpha","-1.955","0.0506","0.0928",FALSE
+"shape_complexity","Euctenochasmatia","Ornithocheiromorpha","-4.687","0.0000","0.0000",TRUE
+"shape_complexity","Eudimorphodontoidea","Ornithocheiromorpha","-3.140","0.0017","0.0055",TRUE
+"shape_complexity","Most Basal pterosaur","Ornithocheiromorpha","-4.352","0.0000","0.0001",TRUE
+"shape_complexity","Anurognathidae","Pteranodontia","-4.858","0.0000","0.0000",TRUE
+"shape_complexity","Azhdarchoidea","Pteranodontia","-6.597","0.0000","0.0000",TRUE
+"shape_complexity","Basal pterodactyliform","Pteranodontia","-4.082","0.0000","0.0002",TRUE
+"shape_complexity","Darwinoptera","Pteranodontia","-5.195","0.0000","0.0000",TRUE
+"shape_complexity","Dsungaripteroidea","Pteranodontia","-2.237","0.0253","0.0556",FALSE
+"shape_complexity","Euctenochasmatia","Pteranodontia","-4.136","0.0000","0.0002",TRUE
+"shape_complexity","Eudimorphodontoidea","Pteranodontia","-3.193","0.0014","0.0048",TRUE
+"shape_complexity","Most Basal pterosaur","Pteranodontia","-4.339","0.0000","0.0001",TRUE
+"shape_complexity","Ornithocheiromorpha","Pteranodontia","-0.816","0.4142","0.5425",FALSE
+"shape_complexity","Anurognathidae","Rhamphorhynchidae","-1.770","0.0768","0.1320",FALSE
+"shape_complexity","Azhdarchoidea","Rhamphorhynchidae","-2.122","0.0338","0.0716",FALSE
+"shape_complexity","Basal pterodactyliform","Rhamphorhynchidae","-0.961","0.3367","0.4629",FALSE
+"shape_complexity","Darwinoptera","Rhamphorhynchidae","-2.005","0.0449","0.0852",FALSE
+"shape_complexity","Dsungaripteroidea","Rhamphorhynchidae","1.305","0.1918","0.2930",FALSE
+"shape_complexity","Euctenochasmatia","Rhamphorhynchidae","0.208","0.8349","0.8664",FALSE
+"shape_complexity","Eudimorphodontoidea","Rhamphorhynchidae","0.470","0.6384","0.7633",FALSE
+"shape_complexity","Most Basal pterosaur","Rhamphorhynchidae","-1.364","0.1725","0.2710",FALSE
+"shape_complexity","Ornithocheiromorpha","Rhamphorhynchidae","4.172","0.0000","0.0002",TRUE
+"shape_complexity","Pteranodontia","Rhamphorhynchidae","3.931","0.0001","0.0003",TRUE
+"pareto_rank_ratio","Anurognathidae","Azhdarchoidea","6.220","0.0000","0.0000",TRUE
+"pareto_rank_ratio","Anurognathidae","Basal pterodactyliform","3.137","0.0017","0.0045",TRUE
+"pareto_rank_ratio","Azhdarchoidea","Basal pterodactyliform","-2.080","0.0375","0.0666",FALSE
+"pareto_rank_ratio","Anurognathidae","Darwinoptera","0.986","0.3243","0.4351",FALSE
+"pareto_rank_ratio","Azhdarchoidea","Darwinoptera","-5.215","0.0000","0.0000",TRUE
+"pareto_rank_ratio","Basal pterodactyliform","Darwinoptera","-2.242","0.0249","0.0490",TRUE
+"pareto_rank_ratio","Anurognathidae","Dsungaripteroidea","3.814","0.0001","0.0006",TRUE
+"pareto_rank_ratio","Azhdarchoidea","Dsungaripteroidea","-1.767","0.0772","0.1287",FALSE
+"pareto_rank_ratio","Basal pterodactyliform","Dsungaripteroidea","0.438","0.6615","0.7425",FALSE
+"pareto_rank_ratio","Darwinoptera","Dsungaripteroidea","2.877","0.0040","0.0088",TRUE
+"pareto_rank_ratio","Anurognathidae","Euctenochasmatia","4.527","0.0000","0.0000",TRUE
+"pareto_rank_ratio","Azhdarchoidea","Euctenochasmatia","-2.438","0.0148","0.0301",TRUE
+"pareto_rank_ratio","Basal pterodactyliform","Euctenochasmatia","0.585","0.5584","0.6676",FALSE
+"pareto_rank_ratio","Darwinoptera","Euctenochasmatia","3.480","0.0005","0.0018",TRUE
+"pareto_rank_ratio","Dsungaripteroidea","Euctenochasmatia","0.083","0.9335","0.9508",FALSE
+"pareto_rank_ratio","Anurognathidae","Eudimorphodontoidea","0.293","0.7697","0.8467",FALSE
+"pareto_rank_ratio","Azhdarchoidea","Eudimorphodontoidea","-7.202","0.0000","0.0000",TRUE
+"pareto_rank_ratio","Basal pterodactyliform","Eudimorphodontoidea","-3.198","0.0014","0.0045",TRUE
+"pareto_rank_ratio","Darwinoptera","Eudimorphodontoidea","-0.801","0.4231","0.5412",FALSE
+"pareto_rank_ratio","Dsungaripteroidea","Eudimorphodontoidea","-4.004","0.0001","0.0003",TRUE
+"pareto_rank_ratio","Euctenochasmatia","Eudimorphodontoidea","-5.029","0.0000","0.0000",TRUE
+"pareto_rank_ratio","Anurognathidae","Most Basal pterosaur","0.925","0.3548","0.4646",FALSE
+"pareto_rank_ratio","Azhdarchoidea","Most Basal pterosaur","-4.674","0.0000","0.0000",TRUE
+"pareto_rank_ratio","Basal pterodactyliform","Most Basal pterosaur","-2.105","0.0353","0.0646",FALSE
+"pareto_rank_ratio","Darwinoptera","Most Basal pterosaur","0.000","1.0000","1.0000",FALSE
+"pareto_rank_ratio","Dsungaripteroidea","Most Basal pterosaur","-2.674","0.0075","0.0158",TRUE
+"pareto_rank_ratio","Euctenochasmatia","Most Basal pterosaur","-3.151","0.0016","0.0050",TRUE
+"pareto_rank_ratio","Eudimorphodontoidea","Most Basal pterosaur","0.741","0.4587","0.5734",FALSE
+"pareto_rank_ratio","Anurognathidae","Ornithocheiromorpha","2.924","0.0035","0.0083",TRUE
+"pareto_rank_ratio","Azhdarchoidea","Ornithocheiromorpha","-6.251","0.0000","0.0000",TRUE
+"pareto_rank_ratio","Basal pterodactyliform","Ornithocheiromorpha","-1.184","0.2365","0.3336",FALSE
+"pareto_rank_ratio","Darwinoptera","Ornithocheiromorpha","1.755","0.0792","0.1282",FALSE
+"pareto_rank_ratio","Dsungaripteroidea","Ornithocheiromorpha","-1.961","0.0499","0.0857",FALSE
+"pareto_rank_ratio","Euctenochasmatia","Ornithocheiromorpha","-2.943","0.0033","0.0081",TRUE
+"pareto_rank_ratio","Eudimorphodontoidea","Ornithocheiromorpha","3.150","0.0016","0.0047",TRUE
+"pareto_rank_ratio","Most Basal pterosaur","Ornithocheiromorpha","1.576","0.1151","0.1758",FALSE
+"pareto_rank_ratio","Anurognathidae","Pteranodontia","1.347","0.1780","0.2646",FALSE
+"pareto_rank_ratio","Azhdarchoidea","Pteranodontia","-5.867","0.0000","0.0000",TRUE
+"pareto_rank_ratio","Basal pterodactyliform","Pteranodontia","-2.192","0.0284","0.0538",FALSE
+"pareto_rank_ratio","Darwinoptera","Pteranodontia","0.276","0.7824","0.8438",FALSE
+"pareto_rank_ratio","Dsungaripteroidea","Pteranodontia","-2.916","0.0035","0.0081",TRUE
+"pareto_rank_ratio","Euctenochasmatia","Pteranodontia","-3.721","0.0002","0.0008",TRUE
+"pareto_rank_ratio","Eudimorphodontoidea","Pteranodontia","1.208","0.2270","0.3285",FALSE
+"pareto_rank_ratio","Most Basal pterosaur","Pteranodontia","0.255","0.7988","0.8289",FALSE
+"pareto_rank_ratio","Ornithocheiromorpha","Pteranodontia","-1.711","0.0872","0.1370",FALSE
+"pareto_rank_ratio","Anurognathidae","Rhamphorhynchidae","0.545","0.5858","0.6713",FALSE
+"pareto_rank_ratio","Azhdarchoidea","Rhamphorhynchidae","-7.808","0.0000","0.0000",TRUE
+"pareto_rank_ratio","Basal pterodactyliform","Rhamphorhynchidae","-3.146","0.0017","0.0045",TRUE
+"pareto_rank_ratio","Darwinoptera","Rhamphorhynchidae","-0.606","0.5445","0.6656",FALSE
+"pareto_rank_ratio","Dsungaripteroidea","Rhamphorhynchidae","-4.025","0.0001","0.0003",TRUE
+"pareto_rank_ratio","Euctenochasmatia","Rhamphorhynchidae","-5.265","0.0000","0.0000",TRUE
+"pareto_rank_ratio","Eudimorphodontoidea","Rhamphorhynchidae","0.275","0.7835","0.8287",FALSE
+"pareto_rank_ratio","Most Basal pterosaur","Rhamphorhynchidae","-0.555","0.5786","0.6771",FALSE
+"pareto_rank_ratio","Ornithocheiromorpha","Rhamphorhynchidae","-3.202","0.0014","0.0047",TRUE
+"pareto_rank_ratio","Pteranodontia","Rhamphorhynchidae","-1.025","0.3052","0.4196",FALSE

@@ -1,0 +1,7 @@
+"Factor","Term","Df","Sum Sq","Mean Sq","F","p_value"
+"clade","Groups",10,"8.0846","0.8085","1.914","0.0459"
+"Depositional","Groups",7,"40.1740","5.7391","6.809","0.0001"
+"Palaeoenvironment","Groups",7,"19.4618","2.7803","3.270","0.0030"
+"Diet_primary","Groups",6,"43.3036","7.2173","9.490","0.0001"
+"Diet_secondary","Groups",4,"7.9440","1.9860","1.296","0.2630"
+"Diet_combined","Groups",14,"21.4825","1.5345","2.011","0.0224"

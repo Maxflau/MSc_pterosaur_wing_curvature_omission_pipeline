@@ -1,0 +1,56 @@
+"level_1","level_2","n","std_residual","over_represented"
+"Anurognathidae","Early Cretaceous",1,"-1.665",FALSE
+"Azhdarchoidea","Early Cretaceous",27,"1.564",FALSE
+"Basal pterodactyliform","Early Cretaceous",0,"-2.397",FALSE
+"Darwinoptera","Early Cretaceous",0,"-2.549",FALSE
+"Dsungaripteroidea","Early Cretaceous",6,"0.944",FALSE
+"Euctenochasmatia","Early Cretaceous",15,"1.090",FALSE
+"Eudimorphodontoidea","Early Cretaceous",0,"-3.093",FALSE
+"Most Basal pterosaur","Early Cretaceous",0,"-2.237",FALSE
+"Ornithocheiromorpha","Early Cretaceous",41,"7.093",TRUE
+"Pteranodontia","Early Cretaceous",0,"-3.217",FALSE
+"Rhamphorhynchidae","Early Cretaceous",0,"-3.684",FALSE
+"Anurognathidae","Early+Middle Jurassic",0,"-0.692",FALSE
+"Azhdarchoidea","Early+Middle Jurassic",0,"-2.032",FALSE
+"Basal pterodactyliform","Early+Middle Jurassic",0,"-0.692",FALSE
+"Darwinoptera","Early+Middle Jurassic",2,"2.262",TRUE
+"Dsungaripteroidea","Early+Middle Jurassic",0,"-0.817",FALSE
+"Euctenochasmatia","Early+Middle Jurassic",0,"-1.416",FALSE
+"Eudimorphodontoidea","Early+Middle Jurassic",2,"1.625",FALSE
+"Most Basal pterosaur","Early+Middle Jurassic",3,"4.429",TRUE
+"Ornithocheiromorpha","Early+Middle Jurassic",0,"-1.882",FALSE
+"Pteranodontia","Early+Middle Jurassic",0,"-0.929",FALSE
+"Rhamphorhynchidae","Early+Middle Jurassic",5,"4.352",TRUE
+"Anurognathidae","Late Cretaceous",0,"-1.522",FALSE
+"Azhdarchoidea","Late Cretaceous",27,"5.772",TRUE
+"Basal pterodactyliform","Late Cretaceous",0,"-1.522",FALSE
+"Darwinoptera","Late Cretaceous",0,"-1.618",FALSE
+"Dsungaripteroidea","Late Cretaceous",0,"-1.798",FALSE
+"Euctenochasmatia","Late Cretaceous",0,"-3.114",FALSE
+"Eudimorphodontoidea","Late Cretaceous",0,"-1.964",FALSE
+"Most Basal pterosaur","Late Cretaceous",0,"-1.420",FALSE
+"Ornithocheiromorpha","Late Cretaceous",7,"-1.373",FALSE
+"Pteranodontia","Late Cretaceous",14,"7.320",TRUE
+"Rhamphorhynchidae","Late Cretaceous",0,"-2.339",FALSE
+"Anurognathidae","Late Jurassic",7,"4.159",TRUE
+"Azhdarchoidea","Late Jurassic",0,"-4.884",FALSE
+"Basal pterodactyliform","Late Jurassic",8,"4.991",TRUE
+"Darwinoptera","Late Jurassic",7,"3.734",TRUE
+"Dsungaripteroidea","Late Jurassic",5,"1.607",FALSE
+"Euctenochasmatia","Late Jurassic",15,"3.403",TRUE
+"Eudimorphodontoidea","Late Jurassic",0,"-2.146",FALSE
+"Most Basal pterosaur","Late Jurassic",0,"-1.552",FALSE
+"Ornithocheiromorpha","Late Jurassic",0,"-4.524",FALSE
+"Pteranodontia","Late Jurassic",0,"-2.232",FALSE
+"Rhamphorhynchidae","Late Jurassic",13,"4.829",TRUE
+"Anurognathidae","Late Triassic",0,"-0.779",FALSE
+"Azhdarchoidea","Late Triassic",0,"-2.288",FALSE
+"Basal pterodactyliform","Late Triassic",0,"-0.779",FALSE
+"Darwinoptera","Late Triassic",0,"-0.829",FALSE
+"Dsungaripteroidea","Late Triassic",0,"-0.920",FALSE
+"Euctenochasmatia","Late Triassic",0,"-1.594",FALSE
+"Eudimorphodontoidea","Late Triassic",11,"11.473",TRUE
+"Most Basal pterosaur","Late Triassic",4,"5.368",TRUE
+"Ornithocheiromorpha","Late Triassic",0,"-2.120",FALSE
+"Pteranodontia","Late Triassic",0,"-1.046",FALSE
+"Rhamphorhynchidae","Late Triassic",0,"-1.198",FALSE

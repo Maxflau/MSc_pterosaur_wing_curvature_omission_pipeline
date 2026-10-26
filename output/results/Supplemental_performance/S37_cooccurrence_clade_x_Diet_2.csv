@@ -1,0 +1,56 @@
+"level_1","level_2","n","std_residual","over_represented"
+"Anurognathidae","Carnivore",5,"2.238",TRUE
+"Azhdarchoidea","Carnivore",0,"-5.240",FALSE
+"Basal pterodactyliform","Carnivore",0,"-1.785",FALSE
+"Darwinoptera","Carnivore",6,"2.665",TRUE
+"Dsungaripteroidea","Carnivore",0,"-2.108",FALSE
+"Euctenochasmatia","Carnivore",5,"-1.456",FALSE
+"Eudimorphodontoidea","Carnivore",0,"-2.302",FALSE
+"Most Basal pterosaur","Carnivore",0,"-1.665",FALSE
+"Ornithocheiromorpha","Carnivore",33,"7.180",TRUE
+"Pteranodontia","Carnivore",10,"3.775",TRUE
+"Rhamphorhynchidae","Carnivore",2,"-1.643",FALSE
+"Anurognathidae","Durophageous",0,"-1.317",FALSE
+"Azhdarchoidea","Durophageous",15,"2.351",TRUE
+"Basal pterodactyliform","Durophageous",0,"-1.317",FALSE
+"Darwinoptera","Durophageous",0,"-1.400",FALSE
+"Dsungaripteroidea","Durophageous",5,"2.537",TRUE
+"Euctenochasmatia","Durophageous",0,"-2.693",FALSE
+"Eudimorphodontoidea","Durophageous",11,"6.622",TRUE
+"Most Basal pterosaur","Durophageous",0,"-1.229",FALSE
+"Ornithocheiromorpha","Durophageous",1,"-3.148",FALSE
+"Pteranodontia","Durophageous",0,"-1.767",FALSE
+"Rhamphorhynchidae","Durophageous",6,"1.881",FALSE
+"Anurognathidae","Generalist",0,"-1.210",FALSE
+"Azhdarchoidea","Generalist",28,"8.731",TRUE
+"Basal pterodactyliform","Generalist",0,"-1.210",FALSE
+"Darwinoptera","Generalist",0,"-1.287",FALSE
+"Dsungaripteroidea","Generalist",0,"-1.429",FALSE
+"Euctenochasmatia","Generalist",1,"-1.926",FALSE
+"Eudimorphodontoidea","Generalist",0,"-1.561",FALSE
+"Most Basal pterosaur","Generalist",0,"-1.130",FALSE
+"Ornithocheiromorpha","Generalist",0,"-3.292",FALSE
+"Pteranodontia","Generalist",4,"1.470",FALSE
+"Rhamphorhynchidae","Generalist",0,"-1.860",FALSE
+"Anurognathidae","Insectivore",0,"-0.751",FALSE
+"Azhdarchoidea","Insectivore",0,"-2.205",FALSE
+"Basal pterodactyliform","Insectivore",3,"3.675",TRUE
+"Darwinoptera","Insectivore",0,"-0.799",FALSE
+"Dsungaripteroidea","Insectivore",0,"-0.887",FALSE
+"Euctenochasmatia","Insectivore",0,"-1.536",FALSE
+"Eudimorphodontoidea","Insectivore",0,"-0.969",FALSE
+"Most Basal pterosaur","Insectivore",1,"0.873",FALSE
+"Ornithocheiromorpha","Insectivore",0,"-2.043",FALSE
+"Pteranodontia","Insectivore",0,"-1.008",FALSE
+"Rhamphorhynchidae","Insectivore",10,"8.923",TRUE
+"Anurognathidae","Piscivore",3,"0.236",FALSE
+"Azhdarchoidea","Piscivore",11,"-2.375",FALSE
+"Basal pterodactyliform","Piscivore",5,"1.760",FALSE
+"Darwinoptera","Piscivore",3,"-0.020",FALSE
+"Dsungaripteroidea","Piscivore",6,"1.506",FALSE
+"Euctenochasmatia","Piscivore",24,"5.784",TRUE
+"Eudimorphodontoidea","Piscivore",2,"-1.436",FALSE
+"Most Basal pterosaur","Piscivore",6,"2.964",TRUE
+"Ornithocheiromorpha","Piscivore",14,"-0.741",FALSE
+"Pteranodontia","Piscivore",0,"-2.753",FALSE
+"Rhamphorhynchidae","Piscivore",0,"-3.152",FALSE
