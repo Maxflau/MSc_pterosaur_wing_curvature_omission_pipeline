@@ -1,5 +1,0 @@
-"Test","rho","p_value","method","n_bins","sig"
-"n_species ~ pareto_rank_ratio",-0.6,0.28476,"Spearman",5,""
-"n_species ~ mean_WAR",0.3,0.62384,"Spearman",5,""
-"n_species ~ disparity (Stress)",0.5,0.391,"Spearman",5,""
-"n_clades  ~ pareto_rank_ratio",-0.3,0.62384,"Spearman",5,""

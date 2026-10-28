@@ -1,7 +1,0 @@
-"metric","chi_squared","df","n","p_value","p_adjusted_BH","significant"
-"aspect_ratio","2.5724",1,220,"0.1087","0.1087",FALSE
-"r2_hat","107.2362",1,220,"0.0000","0.0000",TRUE
-"von_mises_stress","19.3321",1,220,"0.0000","0.0000",TRUE
-"trailing_edge","21.6339",1,220,"0.0000","0.0000",TRUE
-"shape_complexity","13.4176",1,220,"0.0002","0.0003",TRUE
-"pareto_rank_ratio","83.4345",1,220,"0.0000","0.0000",TRUE

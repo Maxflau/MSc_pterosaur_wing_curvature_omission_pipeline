@@ -1,3 +1,0 @@
-"Order","n","mean_aspect_ratio","sd_aspect_ratio","median_aspect_ratio","mean_r2_hat","sd_r2_hat","median_r2_hat","mean_von_mises_stress","sd_von_mises_stress","median_von_mises_stress","mean_trailing_edge","sd_trailing_edge","median_trailing_edge","mean_shape_complexity","sd_shape_complexity","median_shape_complexity","mean_pareto_rank_ratio","sd_pareto_rank_ratio","median_pareto_rank_ratio"
-"Pterodactyliform",165,8.80788,2.15525,8,0.4263,0.00579,0.42502,0.00046,0.00077,0,0.30146,0.11832,0.25521,1.79073,0.21472,1.77159,0.45628,0.27148,0.41667
-"Non Pterodactyliform",55,7.95315,1.02353,8.1,0.44357,0.00874,0.44276,0.00031,0.00054,0.00022,0.37018,0.03323,0.36643,1.68222,0.12889,1.68259,0.88734,0.11333,0.90909

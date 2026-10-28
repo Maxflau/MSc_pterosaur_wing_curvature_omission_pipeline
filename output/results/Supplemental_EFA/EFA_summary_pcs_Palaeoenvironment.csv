@@ -1,9 +1,0 @@
-"Palaeoenvironment","N","PC1_mean","PC1_sd","PC1_median","PC2_mean","PC2_sd","PC2_median"
-"Archipelago",30,-0.003,0.007,-0.004,0.003,0.006,0.002
-"Coastal environment",43,0.003,0.01,0.003,-0.001,0.006,-0.002
-"Desert",5,-0.008,0.002,-0.007,-0.001,0.003,-0.002
-"Floodplain",43,0.001,0.013,-0.003,-0.001,0.005,0
-"Fluvial environment",11,-0.012,0.014,-0.013,0,0.009,0
-"Forested wetland environment",67,0,0.008,-0.001,0,0.005,0.001
-"Marine environment",11,0.016,0.006,0.018,-0.003,0.004,-0.002
-"Semi-arid floodplain",10,-0.005,0.006,-0.002,-0.001,0.006,-0.002

@@ -1,8 +1,0 @@
-"Df","SumOfSqs","R2","F","p_value","Term","Factor","sig","Matrix"
-10,870.311421745395,0.567717822404041,27.4480492215309,1e-04,"Model","clade","***","shapePC_biomech"
-7,222.580191630003,0.145192558140902,5.14415307698285,1e-04,"Model","Depositional","***","shapePC_biomech"
-7,289.712155219337,0.188983793358993,7.05720690096447,1e-04,"Model","Palaeoenvironment","***","shapePC_biomech"
-6,496.765986937726,0.324048262842613,17.0185424469651,1e-04,"Model","Diet_primary","***","shapePC_biomech"
-4,327.167743989843,0.213416662746147,14.5835095651197,1e-04,"Model","Diet_secondary","***","shapePC_biomech"
-9,602.389478965243,0.392948127178893,15.1037992709993,1e-04,"Model","Diet_combo","***","shapePC_biomech"
-4,199.787173841586,0.130324314312841,8.05464842768418,1e-04,"Model","Time_Bin","***","shapePC_biomech"

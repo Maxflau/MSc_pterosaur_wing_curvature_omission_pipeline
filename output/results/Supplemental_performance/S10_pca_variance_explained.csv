@@ -1,5 +1,0 @@
-"axis","proportion_variance","cumulative_variance","dominant_metric"
-"PC1","0.6378","0.6378","aspect_ratio"
-"PC2","0.2413","0.8791","von_mises_stress"
-"PC3","0.0675","0.9466","shape_complexity"
-"PC4","0.0364","0.9831","trailing_edge"
