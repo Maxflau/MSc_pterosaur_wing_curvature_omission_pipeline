@@ -1,0 +1,159 @@
+##############################################################################################
+# The lines are running extra summaries and PERMANOVA tests directly on the saved PC scores
+##############################################################################################
+df <- read.csv("output/results/performance_metrics_complete_CLADE.csv",
+stringsAsFactors = FALSE)
+
+##########################################################################
+# The block is giving long column names shorter labels for the tables below
+##########################################################################
+df <- df %>%
+rename(Depositional = Depositional.settings.paleoenvironment,
+Palaeoenvironment = Environment,
+Diet_primary = Diet.1,
+Diet_secondary = Diet.2)
+
+
+######################################################################
+# The block is checking that the file loaded with the expected size and PC scores
+######################################################################
+cat("Dataset dimensions:", nrow(df), "rows x", ncol(df), "cols\n")
+cat("NAs in PC1:", sum(is.na(df$PC1)),
+"| NAs in PC2:", sum(is.na(df$PC2)), "\n\n")
+
+######################################################################
+# The block is summarising PC1 and PC2 within each grouping
+######################################################################
+summarise_pcs <- function(data, group_var) {
+tbl <- data %>%
+group_by(across(all_of(group_var))) %>%
+summarise(
+N       = n(),
+PC1_mean   = round(mean(PC1),  3),
+PC1_sd     = round(sd(PC1),    3),
+PC1_median = round(median(PC1),3),
+PC2_mean   = round(mean(PC2),  3),
+PC2_sd     = round(sd(PC2),    3),
+PC2_median = round(median(PC2),3),
+.groups = "drop"
+)
+######################################################################
+# The block is showing a fixed number of decimals so every row lines up
+######################################################################
+num_cols <- c("PC1_mean", "PC1_sd", "PC1_median", "PC2_mean", "PC2_sd", "PC2_median")
+tbl[num_cols] <- lapply(tbl[num_cols], format_fixed, digits = 3)
+tbl
+}
+
+cat("=== PC1 & PC2 SUMMARY BY CLADE ===\n")
+sum_clade <- summarise_pcs(df, "clade")
+print(kable(sum_clade, format = "simple"))
+
+cat("\n=== PC1 & PC2 SUMMARY BY DEPOSITIONAL SETTING ===\n")
+sum_dep <- summarise_pcs(df, "Depositional")
+print(kable(sum_dep, format = "simple"))
+
+cat("\n=== PC1 & PC2 SUMMARY BY PALAEOENVIRONMENT ===\n")
+sum_env <- summarise_pcs(df, "Palaeoenvironment")
+print(kable(sum_env, format = "simple"))
+
+cat("\n=== PC1 & PC2 SUMMARY BY PRIMARY DIET (Diet.1) ===\n")
+sum_diet1 <- summarise_pcs(df, "Diet_primary")
+print(kable(sum_diet1, format = "simple"))
+
+cat("\n=== PC1 & PC2 SUMMARY BY SECONDARY DIET (Diet.2) ===\n")
+sum_diet2 <- summarise_pcs(df, "Diet_secondary")
+print(kable(sum_diet2, format = "simple"))
+
+cat("\n=== PC1 & PC2 SUMMARY BY DIET COMBINATION ===\n")
+sum_dietcombo <- summarise_pcs(df, "Diet_combined")
+print(kable(sum_dietcombo, format = "simple"))
+
+######################################################################
+# The lines are turning the PC scores into distances between specimens
+######################################################################
+pca_mat  <- as.matrix(df[, c("PC1", "PC2")])
+pca_dist <- dist(pca_mat, method = "euclidean")
+
+######################################################################
+# The block is testing whether groups sit in different parts of the PC space
+######################################################################
+set.seed(42)
+
+cat("\n\n=== PERMANOVA: PCA SPACE ~ CLADE ===\n")
+perm_clade <- adonis2(pca_dist ~ clade,
+data         = df,
+permutations = 9999,
+method       = "euclidean")
+print(perm_clade)
+
+cat("\n=== PERMANOVA: PCA SPACE ~ DEPOSITIONAL SETTING ===\n")
+perm_dep <- adonis2(pca_dist ~ Depositional,
+data         = df,
+permutations = 9999,
+method       = "euclidean")
+print(perm_dep)
+
+cat("\n=== PERMANOVA: PCA SPACE ~ PALAEOENVIRONMENT ===\n")
+perm_env <- adonis2(pca_dist ~ Palaeoenvironment,
+data         = df,
+permutations = 9999,
+method       = "euclidean")
+print(perm_env)
+
+cat("\n=== PERMANOVA: PCA SPACE ~ PRIMARY DIET (Diet.1) ===\n")
+perm_diet1 <- adonis2(pca_dist ~ Diet_primary,
+data         = df,
+permutations = 9999,
+method       = "euclidean")
+print(perm_diet1)
+
+cat("\n=== PERMANOVA: PCA SPACE ~ SECONDARY DIET (Diet.2) ===\n")
+perm_diet2 <- adonis2(pca_dist ~ Diet_secondary,
+data         = df,
+permutations = 9999,
+method       = "euclidean")
+print(perm_diet2)
+
+cat("\n=== PERMANOVA: PCA SPACE ~ DIET COMBINATION ===\n")
+perm_dietcombo <- adonis2(pca_dist ~ Diet_combined,
+data         = df,
+permutations = 9999,
+method       = "euclidean")
+print(perm_dietcombo)
+
+cat("\n=== PERMANOVA: FULL MODEL (Clade + Depositional + Palaeoenvironment + Diet combination) ===\n")
+perm_full <- adonis2(pca_dist ~ clade + Depositional + Palaeoenvironment + Diet_combined,
+data         = df,
+permutations = 9999,
+method       = "euclidean",
+by           = "margin")
+print(perm_full)
+
+######################################################################
+# The block is checking whether groups differ mainly in spread rather than position
+######################################################################
+test_dispersion <- function(dist_mat, groups, label) {
+bd  <- betadisper(dist_mat, groups)
+pv  <- permutest(bd, permutations = 9999)
+cat("\n--- Dispersion test:", label, "---\n")
+print(pv)
+}
+
+cat("\n\n=== HOMOGENEITY OF DISPERSION TESTS ===\n")
+test_dispersion(pca_dist, df$clade,             "Clade")
+test_dispersion(pca_dist, df$Depositional,      "Depositional setting")
+test_dispersion(pca_dist, df$Palaeoenvironment, "Palaeoenvironment")
+test_dispersion(pca_dist, df$Diet_primary,      "Primary diet (Diet.1)")
+test_dispersion(pca_dist, df$Diet_secondary,    "Secondary diet (Diet.2)")
+test_dispersion(pca_dist, df$Diet_combined,     "Diet combination")
+
+######################################################################
+# The block is running the optional clade-by-clade follow-up tests
+######################################################################
+library(pairwiseAdonis)
+cat("\n=== PAIRWISE PERMANOVA: CLADES ===\n")
+pw_clade <- pairwise.adonis2(pca_dist ~ clade,
+data         = df,
+permutations = 9999)
+print(pw_clade)
