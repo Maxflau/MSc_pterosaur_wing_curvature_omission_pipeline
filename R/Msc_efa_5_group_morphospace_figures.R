@@ -11,9 +11,6 @@ save_plot(make_group_morph("Diet.1",c("Carnivore"="#E74C3C","Durophageous"="#4CA
 "Morphospace Occupation by Primary Diet"),"CLADE_12_morphospace_diet_convex_hulls")
 
 save_plot(make_group_morph("Diet_combined",
-# The pair order is now alphabetised when Diet_combined is built (see Msc_efa_1b_data_join.R),
-# so the same guild is never split across two reversed-order keys here (e.g. "Durophageous+Herbivore"
-# replaces the old "Herbivore+Durophageous", and "Durophageous+Insectivore" replaces "Insectivore+Durophageous")
 c("Carnivore+Durophageous"="#9575CD","Carnivore+Generalist"="#B0BEC5","Carnivore+Insectivore"="#42A5F5",
 "Carnivore+Piscivore" ="#7B1FA2","Durophageous+Herbivore"="#F48FB1","Durophageous+Insectivore"="#CE93D8",
 "Durophageous+Piscivore"="#FF8A65","Filter Feeder+Piscivore"="#FF7043","Generalist+Piscivore"="#EC407A",
