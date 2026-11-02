@@ -19,9 +19,9 @@ c("Carnivore+Durophageous"="#9575CD","Carnivore+Generalist"="#B0BEC5","Carnivore
 "Durophageous+Piscivore"="#FF8A65","Filter Feeder+Piscivore"="#FF7043","Generalist+Piscivore"="#EC407A",
 "Insectivore+Piscivore"="#EF5350"),"Morphospace by Diet Combination", "Convex hulls by combined diet") +
 
-####################################################################################
-# The block is creating of the labels aslarge circles, bold title "Diet (combined)"
-####################################################################################
+################################################################
+# The block is creating the labels for the dietary combinations
+################################################################
 guides(fill   = guide_none(),colour = guide_legend(title="Diet (combined)", ncol=1,override.aes=list(shape=21, size=4.5, fill=NA, stroke=1.0))) +
 theme(legend.text  = element_text(size=8.5),legend.title = element_text(size=11, face="bold"),
 plot.margin  = unit(c(8, 190, 8, 8), "pt")),"CLADE_13_morphospace_dietcombo_convex_hulls", w=14)
