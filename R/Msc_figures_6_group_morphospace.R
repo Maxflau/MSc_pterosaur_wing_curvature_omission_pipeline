@@ -58,9 +58,9 @@ colorRampPalette(brewer.pal(min(12, max(3, n_g)), palette_name))(n_g)
 names(fallback) <- groups
 cols[missing_cl] <- fallback[missing_cl]
 }
-#########################################################################################
-# The block is subsequenting block check  andprint the exact colour used for each group
-#########################################################################################
+#######################################################################
+# The block is chacking and dprint the exact colour used for each group
+#######################################################################
 cat("  Colour mapping used:\n"); print(cols)
 } else {
 cols <- if (n_g <= 8) {
